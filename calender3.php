@@ -8,6 +8,8 @@
 
     date_default_timezone_set('America/New_York');
 
+
+
     if(isset($_GET['setMonth']))
     {
         $month = $_GET['setMonth'];
@@ -24,7 +26,13 @@
         $year = date('Y');
     }
     // $year = date('Y');
-    $day = date('d');
+    if(isset($_GET['setDay']))
+    {
+        $day = $_GET['setDay'];
+    }
+    else{
+        $day = date('d');
+    }
     $dayOfWeek = date('l');
     $dayOfWeekNum = date('w');
     $lastDayOfMonthNum = date('t' , strtotime($year . "-" . $month . "-01"));
@@ -78,110 +86,129 @@
 ?>
 
 
-<div id="calender" style="width:75%;margin-left:12%;border:1px solid black;">
-    <center>
-        <h2><?php echo $year; ?></h2>
-        <h1><?php echo date('F', strtotime($year . '-' . $month . '-01')) ?></h1>
-    </center>
+<?php
 
-    <!-- Reduce calendar one month -->
-    <a href="?setMonth=<?php
-    
+if(!isset($_GET['setDay']))
+{
 
-        $setMonth = date('n', strtotime($year . "-" . $month . '-01 - 1 month'));
-        echo $setMonth;
+    ?>
+    <div id="calender" style="width:75%;margin-left:12%;border:1px solid black;">
+        <center>
+            <h2><?php echo $year; ?></h2>
+            <h1><?php echo date('F', strtotime($year . '-' . $month . '-01')) ?></h1>
+        </center>
 
-        if($month == 1)
-        {
-            $setYear = date('Y', strtotime($year . "-" . $month . '-01 - 1 month'));
-            echo "&setYear=$setYear";
-        }
-        else{
-            echo "&setYear=$year";
-        }
-    
-    ?>" class="prevBtn">Previous Month</a>
+        <!-- Reduce calendar one month -->
+        <a href="?setMonth=<?php
+        
 
-    <!-- Advance calendar one month -->
-    <a href="?setMonth=<?php 
-    
-        $setMonth = date('n', strtotime($year . "-" . $month . '-01 + 1 month'));
-        echo $setMonth;
+            $setMonth = date('n', strtotime($year . "-" . $month . '-01 - 1 month'));
+            echo $setMonth;
 
-        if($month == 12)
-        {
-            $setYear = date('Y', strtotime($year . "-" . $month . '-01 + 1 month'));
-            echo "&setYear=$setYear";        
-        }
-        else{
-            echo "&setYear=$year";
-        }
+            if($month == 1)
+            {
+                $setYear = date('Y', strtotime($year . "-" . $month . '-01 - 1 month'));
+                echo "&setYear=$setYear";
+            }
+            else{
+                echo "&setYear=$year";
+            }
+        
+        ?>" class="prevBtn">Previous Month</a>
 
-    ?>" class="nextBtn">Next Month</a>
+        <!-- Advance calendar one month -->
+        <a href="?setMonth=<?php 
+        
+            $setMonth = date('n', strtotime($year . "-" . $month . '-01 + 1 month'));
+            echo $setMonth;
+
+            if($month == 12)
+            {
+                $setYear = date('Y', strtotime($year . "-" . $month . '-01 + 1 month'));
+                echo "&setYear=$setYear";        
+            }
+            else{
+                echo "&setYear=$year";
+            }
+
+        ?>" class="nextBtn">Next Month</a>
 
 
-    <table style="width:100%;">
+        <table style="width:100%;">
 
-        <tr>
+            <tr>
 
-            <th>Sunday</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
 
-        </tr>
+            </tr>
 
-        <tr>
+            <tr>
 
-            <?php
+                <?php
 
-                if($dayOfWeekNum != 0)
-                {
-                    printFirstWeek($firstDayOfMonthNum);
-                    $count = $firstDayOfMonthNum;
-                    for($i = 1; $i <= $lastDayOfMonthNum; $i++)
+                    if($dayOfWeekNum != 0)
                     {
-                        if($count == 7)
+                        printFirstWeek($firstDayOfMonthNum);
+                        $count = $firstDayOfMonthNum;
+                        for($i = 1; $i <= $lastDayOfMonthNum; $i++)
                         {
-                            $count = 0;
+                            if($count == 7)
+                            {
+                                $count = 0;
+
+                                ?>
+
+                                    </tr>
+                                    
+                                    <tr>
+
+                                <?php
+                            }
 
                             ?>
 
-                                </tr>
-                                
-                                <tr>
+                                <td class="calendarTD" onclick="location.href='?setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>&setDay=<?php echo $i; ?>'" style="cursor:pointer;"><?php echo $i; ?></td>
 
                             <?php
+
+                            $count++;
+                            // echo $count;
                         }
 
-                        ?>
-
-                            <td class="calendarTD"><?php echo $i; ?></td>
-
-                        <?php
-
-                        $count++;
-                        // echo $count;
+                        printLastWeek($count);
                     }
 
-                    printLastWeek($count);
-                }
+                ?>
 
-            ?>
-
-        </tr>
+            </tr>
 
 
 
 
 
 
-    </table>
+        </table>
+    <!-- Ends calendar div -->
+    </div>
+<?php
+}
+else{
+    ?>
+    <br><br>
+    <a href="?setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>" style="border:1px solid turquoise;background-color:turquoise;padding:5px;text-decoration:none;color:white;">Back</a>
+    <h2>Specific day.</h2>
+    <?php
+    echo $month . "-" . $day . "-" . $year;
 
-</div>
+
+}
+?>
 
 <?php
 
