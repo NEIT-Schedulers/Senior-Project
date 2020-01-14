@@ -64,17 +64,38 @@
 
     ?>
 
-    <textarea id="timeInfo"></textarea>
+    <center>
+    <p id="timeInfo"></p>
+    <button type="submit" onclick="calendarInformation()">Save</button>
+    </center>
 
     <script>
 
-        document.getElementById("timeInfo").value = "<?php echo "Current date: $month/$day/$year\\n"; ?>";
-        document.getElementById("timeInfo").value += "<?php echo "Day of week: $dayOfWeek\\n"; ?>";
-        document.getElementById("timeInfo").value += "<?php echo "day of week as a number(0-6, 0 being monday 6 being saturday): $dayOfWeekNum\\n"; ?>";
-        document.getElementById("timeInfo").value += "<?php echo "last day of the month: $lastDayOfMonthNum\\n"; ?>";
-        document.getElementById("timeInfo").value += "<?php echo "last day of month($date): $lastDayOfMonthAsDay\\n"; ?>";
-        document.getElementById("timeInfo").value += "<?php echo "$leapYear\\n"; ?>";
-        document.getElementById("timeInfo").value += "<?php echo "day of current month($dayOfCurrentMonth): $firstDayOfMonthNum"; ?>";
+        function calendarInformation() {
+            if(document.getElementById("timeInfo").innerHTML === "")
+            {
+                document.getElementById("timeInfo").innerHTML = "<?php echo "Current date: " . date('n') . "/" . date('j') . "/" . date('Y') . "<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "Day of week: $dayOfWeek<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "day of week as a number(0-6, 0 being monday 6 being saturday): $dayOfWeekNum<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "last day of the month: $lastDayOfMonthNum<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "last day of month($date): $lastDayOfMonthAsDay<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "$leapYear<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "day of current month($dayOfCurrentMonth): $firstDayOfMonthNum"; ?>";
+                document.getElementById("timeInfo").display = "block";
+            }
+            else{
+                document.getElementById("timeInfo").innerHTML = "";
+                document.getElementById("timeInfo").display = "none";
+            }
+        }
+
+        // document.getElementById("timeInfo").innerHTML = "<?php echo "Current date: " . date('n') . "/" . date('j') . "/" . date('Y') . "<br>"; ?>";
+        // document.getElementById("timeInfo").innerHTML += "<?php echo "Day of week: $dayOfWeek<br>"; ?>";
+        // document.getElementById("timeInfo").innerHTML += "<?php echo "day of week as a number(0-6, 0 being monday 6 being saturday): $dayOfWeekNum<br>"; ?>";
+        // document.getElementById("timeInfo").innerHTML += "<?php echo "last day of the month: $lastDayOfMonthNum<br>"; ?>";
+        // document.getElementById("timeInfo").innerHTML += "<?php echo "last day of month($date): $lastDayOfMonthAsDay<br>"; ?>";
+        // document.getElementById("timeInfo").innerHTML += "<?php echo "$leapYear<br>"; ?>";
+        // document.getElementById("timeInfo").innerHTML += "<?php echo "day of current month($dayOfCurrentMonth): $firstDayOfMonthNum"; ?>";
     </script>
 
 
