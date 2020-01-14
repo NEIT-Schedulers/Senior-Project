@@ -16,40 +16,21 @@
                 $link = str_replace("/z.etc/bootstraptest/index.php", "", $link);
                 echo $link;*/
             ?>
-            <li<?php
-                if($action == "index")
-                { 
-                    echo "  class=\"active\"";
-                }
-                else 
-                { 
-                    echo "";
-                } 
-                ?>><a id="headerLinkButtons" href="?action=index" style="opacity:1;transition:0.3s;">Home</a></li>
+            <li><a id="headerLinkButtons" href="?action=index" style="opacity:1;transition:0.3s;">Home</a></li>
             
             <!--<li<?php
-                if($action == "aboutUs")
-                { 
-                    echo " class=\"active\"";
-                }
-                else 
-                { 
-                    echo "";
-                } 
+                // if($action == "aboutUs")
+                // { 
+                //     echo " class=\"active\"";
+                // }
+                // else 
+                // { 
+                //     echo "";
+                // } 
                 ?>
                 ><a id="headerLinkButtons" href="?action=aboutUs" style="opacity:1;transition:0.3s;">Fortnite API</a></li>-->
 
-            <li<?php
-                if($action == "shop")
-                { 
-                    echo " class=\"active\"";
-                }
-                else 
-                { 
-                    echo "";
-                } 
-                ?>
-                ><a id="headerLinkButtons" href="?action=shop" style="opacity:1;transition:0.3s;"></a></li>
+            <li><a id="headerLinkButtons" href="?action=shop" style="opacity:1;transition:0.3s;"></a></li>
 
             <!-- Photography -->
             <li class="dropdown">
@@ -58,17 +39,7 @@
 
                 <ul class="dropdown-menu">
 
-                    <li<?php
-                        if($action == "userSettings")
-                        { 
-                            echo " class=\"active\"";
-                        }
-                        else 
-                        { 
-                            echo "";
-                        } 
-                        ?>
-                        ><a id="headerLinkButtons" href="?action=userSettings" style="opacity:1;transition:0.3s;">User Settings</a></li>
+                    <li><a id="headerLinkButtons" href="?action=userSettings" style="opacity:1;transition:0.3s;">User Settings</a></li>
 
                         <li><a id="headerLinkButtons" href="logout.php" style="opacity:1;transition:0.3s;">Logout</a></li>
                         
