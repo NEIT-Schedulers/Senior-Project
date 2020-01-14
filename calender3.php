@@ -47,43 +47,35 @@
     // echo "<br>";
     // echo "Day itself: " . $lastDayLastMonth;
     // echo "<br><br>";
-
-    echo "Current date: ";
-    echo $month;
-    echo "/";
-    echo $day;
-    echo "/";
-    echo $year;
-    echo "<br>";
-    echo "day of week: ";
-    echo $dayOfWeek;
-    echo "<br>";
-    echo "day of week as a number(0-6, 0 being monday 6 being saturday): $dayOfWeekNum";
-    echo "<br>";
-    echo "last day of the month: $lastDayOfMonthNum";
-    echo  "<br>";
     $date = $year . "-" . $month . "-01";
-    echo "last day of month($date): " . date('l', strtotime($date));
-    echo "<br>";
-
-    if(2020 % 4 != 0)
-    {
-        echo "This year is not a leap year.";
-    }
-    else{
-        echo "This year is a leap year.";
-    }
-
-
-
-    echo "<br>First day of current month(" . date("l", strtotime($year . "-" . $month . "-01")) . "): ";
+    $lastDayOfMonthAsDay = date('l', strtotime($date));
     $firstDayOfMonthNum = date("w", strtotime($year . "-" . $month . "-01"));
-    echo $firstDayOfMonthNum;
 
-
+    $dayOfCurrentMonth = date("l", strtotime($year . "-" . $month . "-01"));
 
     
-?>
+    if(2020 % 4 != 0)
+    {
+        $leapYear = "This year is not a leap year.";
+    }
+    else{
+        $leapYear = "This year is a leap year.";
+    }
+
+    ?>
+
+    <textarea id="timeInfo"></textarea>
+
+    <script>
+
+        document.getElementById("timeInfo").value = "<?php echo "Current date: $month/$day/$year\\n"; ?>";
+        document.getElementById("timeInfo").value += "<?php echo "Day of week: $dayOfWeek\\n"; ?>";
+        document.getElementById("timeInfo").value += "<?php echo "day of week as a number(0-6, 0 being monday 6 being saturday): $dayOfWeekNum\\n"; ?>";
+        document.getElementById("timeInfo").value += "<?php echo "last day of the month: $lastDayOfMonthNum\\n"; ?>";
+        document.getElementById("timeInfo").value += "<?php echo "last day of month($date): $lastDayOfMonthAsDay\\n"; ?>";
+        document.getElementById("timeInfo").value += "<?php echo "$leapYear\\n"; ?>";
+        document.getElementById("timeInfo").value += "<?php echo "day of current month($dayOfCurrentMonth): $firstDayOfMonthNum"; ?>";
+    </script>
 
 
 <?php
@@ -92,7 +84,7 @@ if(!isset($_GET['setDay']))
 {
 
     ?>
-    <div id="calender" style="width:75%;margin-left:12%;border:1px solid black;">
+    <div id="calender">
         <center>
             <h2><?php echo $year; ?></h2>
             <h1><?php echo date('F', strtotime($year . '-' . $month . '-01')) ?></h1>

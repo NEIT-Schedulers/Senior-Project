@@ -2,6 +2,15 @@ body{
     font-family:Arial;
 }
 
+#calender{
+    border:3px solid black;
+    width:55%;
+    max-width:1500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+}
+
 .calendarTD {
     border:1px solid black;
     width:150px;
@@ -32,6 +41,8 @@ body{
 .nextBtn:hover, .prevBtn:hover{
     background-color:orange;
     border:1px solid orange;
+    color:white;
+    text-decoration:none;
 }
 
 .prevBtn{
@@ -43,4 +54,9 @@ body{
     padding:5px;
     font-family:Arial;
     margin-top:-65px;
+}
+
+#timeInfo{
+    min-width:450px;
+    min-height:300px;
 }
