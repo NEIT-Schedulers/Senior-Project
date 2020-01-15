@@ -15,6 +15,6 @@
         
         <h1>Senior Project</h1>
         
-        <?php include_once('calender3.php'); ?>
+        <?php include_once('calendar.php'); ?>
     </body>
 </html>

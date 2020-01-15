@@ -59,4 +59,17 @@ body{
 #timeInfo{
     /* min-width:425px;
     min-height:150px; */
+    border:0px solid black;
+    width:425px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+#saveBtn{
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    position:static;
 }

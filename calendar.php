@@ -64,10 +64,8 @@
 
     ?>
 
-    <center>
     <p id="timeInfo"></p>
-    <button type="submit" onclick="calendarInformation()">Save</button>
-    </center>
+    <button id="saveBtn" type="submit" onclick="calendarInformation()">Time Info</button>
 
     <script>
 
@@ -76,16 +74,18 @@
             {
                 document.getElementById("timeInfo").innerHTML = "<?php echo "Current date: " . date('n') . "/" . date('j') . "/" . date('Y') . "<br>"; ?>";
                 document.getElementById("timeInfo").innerHTML += "<?php echo "Day of week: $dayOfWeek<br>"; ?>";
-                document.getElementById("timeInfo").innerHTML += "<?php echo "day of week as a number(0-6, 0 being monday 6 being saturday): $dayOfWeekNum<br>"; ?>";
-                document.getElementById("timeInfo").innerHTML += "<?php echo "last day of the month: $lastDayOfMonthNum<br>"; ?>";
-                document.getElementById("timeInfo").innerHTML += "<?php echo "last day of month($date): $lastDayOfMonthAsDay<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "Day of week as a number(0-6, 0 being monday 6 being saturday): $dayOfWeekNum<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "Last day of the month: $lastDayOfMonthNum<br>"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "Last day of month($date): $lastDayOfMonthAsDay<br>"; ?>";
                 document.getElementById("timeInfo").innerHTML += "<?php echo "$leapYear<br>"; ?>";
-                document.getElementById("timeInfo").innerHTML += "<?php echo "day of current month($dayOfCurrentMonth): $firstDayOfMonthNum"; ?>";
+                document.getElementById("timeInfo").innerHTML += "<?php echo "Day of current month($dayOfCurrentMonth): $firstDayOfMonthNum"; ?>";
                 document.getElementById("timeInfo").display = "block";
+                document.getElementById("timeInfo").style = "border:2px solid black;width:425px;margin-left:auto;margin-right:auto;";
             }
             else{
                 document.getElementById("timeInfo").innerHTML = "";
                 document.getElementById("timeInfo").display = "none";
+                document.getElementById("timeInfo").style = "border:0px solid black;width:425px;margin-left:auto;margin-right:auto;";
             }
         }
 
