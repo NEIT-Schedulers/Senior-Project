@@ -186,7 +186,7 @@ if(!isset($_GET['setDay']))
 
                             ?>
 
-                                <td class="calendarTD" onclick="location.href='?setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>&setDay=<?php echo $i; ?>'" style="cursor:pointer;"><?php echo $i; ?></td>
+                                <td class="calendarTD" onclick="location.href='appointments.php?setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>&setDay=<?php echo $i; ?>'" style="cursor:pointer;"><?php echo $i; ?></td>
 
                             <?php
 

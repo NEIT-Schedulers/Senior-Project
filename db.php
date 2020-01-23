@@ -1,15 +1,11 @@
 <?php
 
-    $dsn = "mysql:host=;dbname=";
-    $userName = "chrispf0_cpeloso";
+    $dsn = "mysql:host=localhost;dbname=scheduling";
+    $userName = "root";
     $pword = "";
     
-    try{
-        $db = new PDO($dsn, $userName, $pword);
-    }
-    catch(PDOException $e){
-        die("Can't connect to the database" . "<br>" . $e);
-    }
+    $db = @mysqli_connect('localhost', 'root', '', 'scheduling')
+    OR die('Could not connect to MySql ' . mysqli_connect_error());
 
 
 
