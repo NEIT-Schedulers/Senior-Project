@@ -22,30 +22,29 @@
     include_once('adminEnd/Classes/Practitioners.php');
     $practitioner = new Practitioners($db);
     $resultsPractitioners = $practitioner->pullPractitioners($businessID);
+    // print_r($resultsPractitioners);
     
     // Pulls appointments thing
     include_once('adminEnd/db.php');
     include_once('adminEnd/Classes/Appointments.php');
     $appointment = new Appointments($db);
     
-    $allAppointmentsToday = $appointment->readInnerJoinBusinessIDDate($_GET['businessID'], $dateThing);
+    $allAppointmentsToday = $appointment->readInnerJoinBusinessIDWithPracID($_GET['businessID'], $dateThing);
     // print_r($allAppointmentsToday);
 ?>
 
 
 
 
-<?php
 
-    // If the pracititioner was provided...
-    if(isset($_GET['practitionerName']))
-    {
-        ?>
-        <h2><?php echo $month . "/" . $day . "/" . $year . " - " . $dayOfCurrentMonth;?></h2>
-        <br>
-        
+<br>
+
+<div id="appointmentSchedulerDiv">
+    
+    <form action="index.php" method="POST" class="appointmentSchedulerForm">
+    
         <!--Lists all the different service types-->
-        <select id="servicesListing" onchange="serviceChange(this.value)">
+        <select id="servicesListing" name="serviceID">
         
           <?php
           
@@ -53,7 +52,7 @@
             {
                 ?>
                 
-                    <option value="<?php echo $re['serviceName']; ?>"><?php echo $re['serviceName']; ?></option>
+                    <option value="<?php echo $re['serviceID']; ?>"><?php echo $re['serviceName']; ?></option>
                 
                 <?php
             }
@@ -63,68 +62,9 @@
           
           
         </select>
-        
-        <br>
-        
-        <!--Practitioner selecter-->
-        <select id="practitionersListing" onchange="practitionerChange(this.value)">
-            
-            <?php
-          
-            foreach($resultsPractitioners as $re)
-            {
-                ?>
-                
-                    <option value="<?php echo $re['practitionerFirstName'] . " " . $re['practitionerLastName']; ?>"><?php echo $re['practitionerFirstName'] . " " . $re['practitionerLastName']; ?></option>
-                
-                <?php
-            }
-          
-          ?>
-            
-        </select>
-        
-        <br>
-        
-        <div id="appointmentSchedulerDiv">
-            
-            <p id='appointmentSchedulerP'>
-            <?php
-            foreach($allAppointmentsToday as $ap) {
-                
-                // print_r($ap);
-                $timeThing = date("g:i a", strtotime($ap['time']));
-                $dateAppointmentThing = date("m/d/Y", strtotime($ap['date']));
-                
-                echo "<b>" . $ap['clientFirstName'] . " " . $ap['clientLastName'] . "</b> has a <b>" . $ap['serviceName'] . "</b> appointment at <b>" . $timeThing . "</b> on <b>" . $dateAppointmentThing . "</b> with employee <b>" . $ap['practitionerFirstName'] . " " . $ap['practitionerLastName'] . "</b>.";
-                echo "<br>";
-            }
-            ?>
-            </p>
-            <?php
-            // foreach($appointment->readInnerJoinBusinessIDDate($_GET['businessID'], $dateThing) as $ap)
-            // {
-            //     print_r($ap);
-            //     echo "<br>";
-            //     echo "<br>";
-            // }
-            ?>
-            
-        </div>
-        
-        
-        
-        <?php
-        
-        
-    }
     
-    // If the practitioner wasn't provided...
-    else
-    {
-        ?>
         <!--Practitioner selecter-->
-        <select id="practitionersListing" onchange="practitionerChange(this.value)">
+        <select id="practitionersListing" onchange="practitionerChange(this.value)" name="practitionerID">
             
             <?php
           
@@ -132,7 +72,7 @@
             {
                 ?>
                 
-                    <option value="<?php echo $re['practitionerFirstName'] . " " . $re['practitionerLastName']; ?>"><?php echo $re['practitionerFirstName'] . " " . $re['practitionerLastName']; ?></option>
+                    <option value="<?php echo $re['practitionerID']; ?>"><?php echo $re['practitionerFirstName'] . " " . $re['practitionerLastName']; ?></option>
                 
                 <?php
             }
@@ -140,23 +80,30 @@
           ?>
             
         </select>
+    
+        <input type="text"      name="clientFirstName"   placeholder="First Name"                                                        tabIndex=1 />
+        <input type="text"      name="clientLastName"    placeholder="Last Name"                                                         tabIndex=2 />
+        <input type="text"      name="clientEmail"       placeholder="Email"         pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}"         tabIndex=3 />
+        <input type="text"      name="clientPhone"       placeholder="Phone"                                                             tabIndex=4 />
         
-        <br>
-                <h4>no prac</h4>
-
+        <!--Sends the date-->
+        <input type='hidden'    name="appointmentDate"                  value="<?php echo $dateThing; ?>"/> 
+        
+        <!--Sends the business ID-->
+        <input type='hidden'    name="businessID"                       value="<?php echo $_GET['businessID']; ?>"/> 
+        
+        <input type="time"      name="appointmentTime" />
+        
+        <button type="submit" id="btnAppointmentSet" name="action" value="submitAppointment" >Set Appointment</button><br>
         
         
-        <?php
-    }
-
-
-?>
-
-
-
-
-<h1 id="title">title</h1>
-
+    </form>
+    
+    
+    <p id='appointmentSchedulerP'></p>
+    
+    
+</div>
 
 
 
@@ -178,39 +125,112 @@
 ?>
 
 <script>
-    function serviceChange(val)
+    // Changes the time format from 24 hour to 12 hour
+    function changeTimeFormat(val)
     {
-        alert(val);
+        var hour = val.slice(0,2);
+        
+        var minute = val.slice(3,5);
+        
+        var amPm = "am";
+        
+        if(hour > 12)
+        {
+            hour -= 12;
+            amPm = "pm";
+        }
+        
+        
+        var time = hour.toString() + ":" + minute.toString() + " " + amPm;
+        
+        
+        
+        
+        return time; // final time Time - 22:10
     }
     
-    function practitionerChange(val)
+    // Changes the date format from YYYY/MM/DD to MM/DD/YYYY
+    function changeDateFormat(val)
     {
+        var year = val.slice(0,4);
+        
+        var month = val.slice(5,7);
+        
+        var day = val.slice(8,10);
+        
+        var newDate = month + "/" + day + "/" + year;
+        
+        return newDate;
+    }
+    
+    
+    
+    // Function that gets performed every time the select option is changed
+    function practitionerChange(val)
+    { 
         console.log("value: " + val);
         document.getElementById("appointmentSchedulerP").innerHTML = "";
+
         
         for(var e = 0; e < newAppointment.length;e++)
         {
-            if(val === newAppointment[e]['practitionerFirstName'] + " " + newAppointment[e]['practitionerLastName'])
+            // console.log(newAppointment[e]['practitionerID']);
+            if(val === newAppointment[e]['practitionerID'])
             {
                 document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['clientFirstName'] + " " + newAppointment[e]['clientLastName'] + "</b>";
                 document.getElementById("appointmentSchedulerP").innerHTML += " has a <b>" + newAppointment[e]['serviceName'] + "</b> appointment ";
-                document.getElementById("appointmentSchedulerP").innerHTML += " at <b>" + newAppointment[e]['time'] + "</b> on <b>" + newAppointment[e]['date'] + "</b>";
+                document.getElementById("appointmentSchedulerP").innerHTML += " at <b>" + changeTimeFormat(newAppointment[e]['time']) + "</b> on <b>" + changeDateFormat(newAppointment[e]['date']) + "</b>";
                 document.getElementById("appointmentSchedulerP").innerHTML += " with employee <b>" + newAppointment[e]['practitionerFirstName'] + " " + newAppointment[e]['practitionerLastName'] + "</b>";
                     
                     
                 document.getElementById("appointmentSchedulerP").innerHTML += "<br>";
+                
             }
         }
     }
     
-    // var appointmentsArray = <?php echo '["' . implode('", "', $appointment->readInnerJoinBusinessIDDate($_GET['businessID'], $dateThing)) . '"]' ?>;
-    var newAppointment = <?php echo json_encode($appointment->readInnerJoinBusinessIDDate($_GET['businessID'], $dateThing)); ?>
     
+    
+    
+    // Turns PHP array into a javascript array.
+    // var appointmentsArray = <?php //echo '["' . implode('", "', $appointment->readInnerJoinBusinessIDWithPracID($_GET['businessID'], $dateThing)) . '"]' ?>;
+    var newAppointment = <?php echo json_encode($appointment->readInnerJoinBusinessIDWithPracID($_GET['businessID'], $dateThing)); ?>
+    
+    // Pulls client names from database.
     for(var i = 0; i < newAppointment.length; i++)
     {
-        console.log(newAppointment[i]['clientFirstName'] + " " + newAppointment[i]['clientLastName']);
+        console.log(newAppointment);
+        console.log(newAppointment[i]['clientFirstName'] + " " + newAppointment[i]['clientLastName'] + ", ID#: " + newAppointment[i]['practitionerID']);
     }
+    
+    
+    
+    
 
+
+</script>
+
+<!--Shows appointments for the first employee on the list-->
+<script>
+    var yourSelect = document.getElementById("practitionersListing");
+    var val = yourSelect.value;
+
+    console.log("value: " + val);
+    document.getElementById("appointmentSchedulerP").innerHTML = "";
+    
+    for(var e = 0; e < newAppointment.length;e++)
+    {
+        if(val === newAppointment[e]['practitionerID'])
+        {
+            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['clientFirstName'] + " " + newAppointment[e]['clientLastName'] + "</b>";
+            document.getElementById("appointmentSchedulerP").innerHTML += " has a <b>" + newAppointment[e]['serviceName'] + "</b> appointment ";
+            document.getElementById("appointmentSchedulerP").innerHTML += " at <b>" + changeTimeFormat(newAppointment[e]['time']) + "</b> on <b>" + changeDateFormat(newAppointment[e]['date']) + "</b>";
+            document.getElementById("appointmentSchedulerP").innerHTML += " with employee <b>" + newAppointment[e]['practitionerFirstName'] + " " + newAppointment[e]['practitionerLastName'] + "</b>";
+                
+                
+            document.getElementById("appointmentSchedulerP").innerHTML += "<br>";
+        }
+    }
 </script>
 
 

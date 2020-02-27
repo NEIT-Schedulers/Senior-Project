@@ -63,6 +63,10 @@
                 include_once('adminEnd/register.php');
                 break;
                 
+            case "submitAppointment":
+                include_once('adminEnd/submitAppointment.php');
+                break;
+            
             case "updateBusinessHours":
                 include_once('adminEnd/updateBusinessHours.php');
                 break;

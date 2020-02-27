@@ -178,6 +178,51 @@
             return $results;
         }
         
+        public function readInnerJoinBusinessIDWithPracID($bs, $date)
+        {
+            $sql = "SELECT appointments.appointmentID, DATE(appointments.appointmentTime) AS date, TIME(appointments.appointmentTime) AS time, appointments.clientFirstName, appointments.clientLastName, appointments.clientEmail, appointments.clientPhone, 
+                            o.businessName AS business,
+                            p.practitionerID, p.practitionerFirstName, p.practitionerLastName, p.practitionerEmail, p.practitionerPhone, 
+                            s.serviceName, s.description, s.price AS servicePrice, s.lengthOfTime AS duration
+            FROM appointments
+            INNER JOIN practitioners AS p ON (
+                appointments.practitionerID = p.practitionerID   
+            )
+            INNER JOIN services AS s ON (
+                appointments.serviceID = s.serviceID    
+            )
+            INNER JOIN owners AS o ON (
+                appointments.businessID = o.ownerID
+            ) 
+            WHERE appointments.businessID = :businessID AND DATE(appointments.appointmentTime) = :date" . $this->sqlInnerJoinEnd;
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':businessID', $bs);
+            $sql->bindParam(':date', $date);
+            $sql->execute();
+            $results = $sql->fetchAll(PDO::FETCH_ASSOC);
+            return $results;        }
+        
+        
+        
+        
+        
+        // Function for inserting appointment into database
+        public function submitAppointment($clientFirstName, $clientLastName, $clientEmail, $clientPhone, $appointmentDateTime, $businessID, $serviceID, $practitionerID)
+        {
+            $sql = "INSERT INTO appointments VALUES(NULL, :appointmentDateTime, :businessID, :serviceID, :practitionerID, :clientFirstName, :clientLastName, :clientEmail, :clientPhone)";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':appointmentDateTime', $appointmentDateTime);
+            $sql->bindParam(':businessID', $businessID);
+            $sql->bindParam(':serviceID', $serviceID);
+            $sql->bindParam(':practitionerID', $practitionerID);
+            $sql->bindParam(':clientFirstName', $clientFirstName);
+            $sql->bindParam(':clientLastName', $clientLastName);
+            $sql->bindParam(':clientEmail', $clientEmail);
+            $sql->bindParam(':clientPhone', $clientPhone);
+            $sql->execute();
+        }
+
+        
         
         
         

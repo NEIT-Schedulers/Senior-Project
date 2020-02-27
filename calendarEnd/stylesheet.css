@@ -198,6 +198,31 @@ body {
     
 }
 
+#appointmentTable
+{
+    background-color:red;
+}
+
+.appointmentSchedulerForm
+{
+    /*border:1px solid black;*/
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+#practitionersListing
+{
+    height:30px;
+    font-family:arial, sans-serif;
+}
+
+#servicesListing
+{
+    height:30px;
+    font-family:arial, sans-serif;
+}
+
 
 
 
