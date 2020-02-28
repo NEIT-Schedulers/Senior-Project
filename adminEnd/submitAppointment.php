@@ -11,8 +11,7 @@
     $serviceID = $_POST['serviceID'];
     $practitionerID = $_POST['practitionerID'];
     
-    $appointmentDateTime = $aptDate . " " . $aptTime;
-
+    
     // Checks that the variables are coming through    
     echo "Client first name: " . $clientFirstName . "<br>";
     echo "Client last name: " . $clientLastName . "<br>";
@@ -23,7 +22,8 @@
     echo "Business ID: " . $id . "<br>";
     echo "Service ID: " . $serviceID . "<br>";
     echo "PractitionerID: " . $practitionerID . "<br>";
-    echo "appointmentDateTime: " . $appointmentDateTime . "<br>";
+    echo $aptDate . " " . $aptTime . "<br>";
+    echo "<hr>";
     
     // Include dependencies
     include_once('db.php');
@@ -33,7 +33,7 @@
     $appointment = new Appointments($db);
     
     // Perform appointment object appointment submission method
-    $appointment->submitAppointment($clientFirstName, $clientLastName, $clientEmail, $clientPhone, $appointmentDateTime, $id, $serviceID, $practitionerID);
+    $appointment->submitAppointment($clientFirstName, $clientLastName, $clientEmail, $clientPhone, $aptDate, $aptTime, $id, $serviceID, $practitionerID);
     
 
     
@@ -41,7 +41,7 @@
 ?> 
     
     
-    <meta http-equiv="Refresh" content="0; url=index.php?businessID=<?php echo $id; ?>" />
+    <!--<meta http-equiv="Refresh" content="0; url=index.php?businessID=<?php echo $id; ?>" />-->
     
     
     

@@ -154,6 +154,12 @@
         //updates owner business operating hours
         public function updateHours($openingHours, $closingHours, $id)
         {
+            $sql = "DELETE FROM appointments WHERE businessID = :businessID";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':businessID', $id);
+            $sql->execute();
+            
+            
             $sql = "UPDATE owners SET openingHour = :opening, closingHour = :closing WHERE ownerID = :ownerID";
             $sql = $this->conn->prepare($sql);
             $sql->bindParam(':opening', $openingHours);
