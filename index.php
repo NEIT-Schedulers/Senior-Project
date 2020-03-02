@@ -25,7 +25,7 @@
         <?php
         
             //check if the user is trying to check a business's calendar
-            if(isset($_GET['businessID']))
+            if(isset($_GET['businessID']) || $_GET['searchParameters'])
             {
                 include_once('indexCalendar.php');
             }

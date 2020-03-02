@@ -1,0 +1,676 @@
+[09-Feb-2020 08:17:51 UTC] PHP Warning:  include_once(calendar.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php on line 3
+[09-Feb-2020 08:17:51 UTC] PHP Warning:  include_once(): Failed opening 'calendar.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php on line 3
+[09-Feb-2020 08:18:03 UTC] PHP Warning:  include_once(calendar.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php on line 3
+[09-Feb-2020 08:18:03 UTC] PHP Warning:  include_once(): Failed opening 'calendar.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php on line 3
+[10-Feb-2020 23:27:26 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:32:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:42:17 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:36 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:37 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:37 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:37 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:47:59 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:30 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:31 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:32 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:44 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:45 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:46 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:48 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:49 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:50 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:51 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:53 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:54 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:48:59 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:00 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:01 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:02 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:03 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:04 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:06 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:06 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:06 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:07 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:07 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:09 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:09 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:09 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:10 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:10 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:11 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:11 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:13 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:13 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:25 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:49:25 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:50:33 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:50:33 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:50:34 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 23:50:34 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/chrispf0/public_html/SeniorProject4/adminEnd/login.php on line 3
+[10-Feb-2020 21:05:36 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:05:36 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:05:36 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:05:36 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:05:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:05:46 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:05:46 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:05:46 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:05:46 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:05:46 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:05:53 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:05:53 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:05:53 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:05:53 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:05:53 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:06:59 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:06:59 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:06:59 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:06:59 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:06:59 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:07:05 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:07:05 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:07:05 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:07:05 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:07:05 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:07:54 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:07:54 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:07:54 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:07:54 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:07:54 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:08:08 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:08:08 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:08:08 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:08:08 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:08:08 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:08:16 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:08:16 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:08:16 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:08:16 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:08:16 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:09:04 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:04 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:04 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:04 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:04 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:09:07 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:07 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:07 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:07 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:07 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:09:11 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:11 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:11 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:11 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:11 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:09:26 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:26 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:26 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:26 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:26 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointments' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:243
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 243
+[10-Feb-2020 21:09:45 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:45 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:09:45 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:45 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:09:45 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointments' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:244
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 244
+[10-Feb-2020 21:10:01 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:10:01 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:10:01 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:10:01 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:10:01 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointments' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:244
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 244
+[10-Feb-2020 21:10:36 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:10:36 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 240
+[10-Feb-2020 21:10:36 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:10:36 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 241
+[10-Feb-2020 21:10:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointments' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:244
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 244
+[10-Feb-2020 21:11:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function read() on null in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:246
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 246
+[24-Feb-2020 19:28:10 America/New_York] PHP Fatal error:  Uncaught Error: Class 'date_format' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:248
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 248
+[24-Feb-2020 19:28:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'date_format' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:248
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 248
+[24-Feb-2020 19:29:01 America/New_York] PHP Fatal error:  Uncaught Error: Class 'date_format' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php:248
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php on line 248
+[24-Feb-2020 19:50:58 America/New_York] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 12
+[24-Feb-2020 19:51:16 America/New_York] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 12
+[24-Feb-2020 19:51:18 America/New_York] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 12
+[24-Feb-2020 19:51:18 America/New_York] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 12
+[24-Feb-2020 19:51:18 America/New_York] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 12
+[24-Feb-2020 20:19:21 America/New_York] PHP Warning:  date() expects parameter 2 to be int, string given in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 13
+[24-Feb-2020 20:19:23 America/New_York] PHP Warning:  date() expects parameter 2 to be int, string given in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 13
+[24-Feb-2020 20:20:13 America/New_York] PHP Warning:  date() expects parameter 2 to be int, string given in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 13
+[24-Feb-2020 20:27:54 America/New_York] PHP Warning:  date() expects parameter 2 to be int, string given in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 15
+[24-Feb-2020 20:28:54 America/New_York] PHP Warning:  date() expects parameter 2 to be int, string given in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 12
+[24-Feb-2020 21:19:05 America/New_York] PHP Warning:  include_once(Classes/Appointments.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 14
+[24-Feb-2020 21:19:05 America/New_York] PHP Warning:  include_once(): Failed opening 'Classes/Appointments.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 14
+[24-Feb-2020 21:19:05 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Appointments' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:16
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 16
+[25-Feb-2020 09:23:20 UTC] PHP Warning:  include_once(adminEnd/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:23:20 UTC] PHP Warning:  include_once(): Failed opening 'adminEnd/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:23:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php:18
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(27): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 18
+[25-Feb-2020 09:23:38 UTC] PHP Warning:  include_once(adminEnd/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:23:38 UTC] PHP Warning:  include_once(): Failed opening 'adminEnd/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:23:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php:18
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(27): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 18
+[25-Feb-2020 09:26:18 UTC] PHP Warning:  include_once(adminEnd/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:26:18 UTC] PHP Warning:  include_once(): Failed opening 'adminEnd/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:26:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php:19
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(27): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 19
+[25-Feb-2020 09:26:37 UTC] PHP Warning:  include_once(adminEnd/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:26:37 UTC] PHP Warning:  include_once(): Failed opening 'adminEnd/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:26:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php:18
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(27): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 18
+[25-Feb-2020 09:27:08 UTC] PHP Warning:  include_once(adminEnd/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:27:08 UTC] PHP Warning:  include_once(): Failed opening 'adminEnd/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:27:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php:19
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(27): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 19
+[25-Feb-2020 09:28:15 UTC] PHP Warning:  include_once(adminEnd/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:28:15 UTC] PHP Warning:  include_once(): Failed opening 'adminEnd/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:28:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php:19
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(27): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 19
+[25-Feb-2020 09:28:43 UTC] PHP Warning:  include_once(adminEnd/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:28:43 UTC] PHP Warning:  include_once(): Failed opening 'adminEnd/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 16
+[25-Feb-2020 09:28:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php:19
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(27): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/addBusinessServices.php on line 19
+[26-Feb-2020 01:57:05 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 01:57:15 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 01:57:21 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 01:57:29 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 01:57:37 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 01:57:39 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 01:58:11 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 01:58:25 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 40
+[26-Feb-2020 02:00:10 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 215
+[26-Feb-2020 02:00:11 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 215
+[26-Feb-2020 02:00:13 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 215
+[26-Feb-2020 02:05:20 America/New_York] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 175
+[26-Feb-2020 02:05:20 America/New_York] PHP Warning:  Use of undefined constant location - assumed 'location' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 175
+[26-Feb-2020 02:05:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function replace() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:175
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 175
+[26-Feb-2020 02:06:57 America/New_York] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:06:57 America/New_York] PHP Warning:  Use of undefined constant location - assumed 'location' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:06:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function replace() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:177
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:06:59 America/New_York] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:06:59 America/New_York] PHP Warning:  Use of undefined constant location - assumed 'location' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:06:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function replace() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:177
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:07:00 America/New_York] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:07:00 America/New_York] PHP Warning:  Use of undefined constant location - assumed 'location' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 02:07:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function replace() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:177
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 177
+[26-Feb-2020 20:13:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::pullAllAppointmentsDay() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:32
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 32
+[26-Feb-2020 21:29:06 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 196
+[26-Feb-2020 21:29:47 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 196
+[26-Feb-2020 21:30:05 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 197
+[26-Feb-2020 21:31:03 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 197
+[26-Feb-2020 22:48:46 America/New_York] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 50
+[26-Feb-2020 22:50:57 America/New_York] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 129
+[27-Feb-2020 05:27:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 29 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(29): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '01:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 05:27:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 30 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(30): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '01:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 05:27:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 30 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(30): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '01:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 05:29:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 33 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(33): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '01:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 05:29:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 33 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(33): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '01:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 05:30:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 33 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(33): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 05:31:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 33 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(33): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '01:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 05:31:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 33 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:186
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(33): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '01:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 186
+[27-Feb-2020 00:36:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::readInnerJoinBusinessIDWithPractitionerID() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:32
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 32
+[27-Feb-2020 00:36:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::readInnerJoinBusinessIDWithPractitionerID() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:32
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 32
+[27-Feb-2020 00:37:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::readInnerJoinBusinessIDWithPractitionerID() in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php:32
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(126): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/indexCalendar.php(3): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarPerDay.php on line 32
+[27-Feb-2020 05:45:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::submitAppointment(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 33 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:210
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(33): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '13:00', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 210
+[27-Feb-2020 19:27:38 UTC] PHP Fatal error:  Uncaught Error: Class 'date' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:219
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020/2/10 11:30', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 219
+[27-Feb-2020 19:30:00 UTC] PHP Fatal error:  Uncaught Error: Class 'date' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:219
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(39): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', 'Mon/Feb/2020 11...', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 219
+[27-Feb-2020 19:30:13 UTC] PHP Fatal error:  Uncaught Error: Class 'date' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:219
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(39): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '10/02/2020 11:3...', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 219
+[27-Feb-2020 19:30:24 UTC] PHP Fatal error:  Uncaught Error: Class 'date' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:219
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(39): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '02/10/2020 11:3...', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 219
+[27-Feb-2020 19:30:42 UTC] PHP Fatal error:  Uncaught Error: Class 'date' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:219
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(39): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '02/10/2020 11:3...', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 219
+[27-Feb-2020 19:42:29 UTC] PHP Warning:  date() expects parameter 2 to be int, string given in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 20
+[27-Feb-2020 19:50:47 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 25
+[27-Feb-2020 19:50:56 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 25
+[27-Feb-2020 19:53:25 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 27
+[27-Feb-2020 19:54:35 UTC] PHP Warning:  DateTime::setTime() expects at least 2 parameters, 1 given in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 25
+[27-Feb-2020 19:54:35 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 28
+[27-Feb-2020 20:07:34 UTC] PHP Warning:  time() expects exactly 0 parameters, 1 given in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 17
+[27-Feb-2020 20:08:35 UTC] PHP Warning:  Use of undefined constant date - assumed 'date' (this will throw an Error in a future version of PHP) in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 18
+[27-Feb-2020 20:08:35 UTC] PHP Warning:  A non-numeric value encountered in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php on line 18
+[27-Feb-2020 20:24:50 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:222
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '14:00', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 222
+[27-Feb-2020 20:25:07 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:222
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '14:00', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 222
+[27-Feb-2020 20:55:02 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 225
+[27-Feb-2020 20:55:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function splice() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:226
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '11:30', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 226
+[27-Feb-2020 20:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 2020-2-10() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:226
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '11:30', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 226
+[27-Feb-2020 20:57:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 2020-2-10() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:226
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '11:30', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 226
+[27-Feb-2020 20:57:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 2020-2-10() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:230
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '11:30', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 230
+[27-Feb-2020 20:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 2020-2-10() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:231
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitAppointment.php(36): Appointments->submitAppointment('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '2020-2-10', '11:30', '1', '1', '1')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 231
+[27-Feb-2020 21:15:08 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 256
+[27-Feb-2020 21:37:36 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 275
+[27-Feb-2020 21:38:31 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 277
+[28-Feb-2020 01:06:33 America/Boise] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php:10
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 10
+[28-Feb-2020 01:06:58 America/Boise] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php:10
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(67): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 10
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'businessName' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:28:41 America/Boise] PHP Warning:  Illegal string offset 'ownerID' in /home1/chrispf0/public_html/SeniorProject4/adminEnd/submitBusinessSearch.php on line 18
+[28-Feb-2020 01:42:08 America/Boise] PHP Warning:  include_once(submitBusinessSearch.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 67
+[28-Feb-2020 01:42:08 America/Boise] PHP Warning:  include_once(): Failed opening 'submitBusinessSearch.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 67
+[28-Feb-2020 19:30:35 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 278
+[28-Feb-2020 21:11:50 America/Boise] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 296
+[29-Feb-2020 00:36:06 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 296
+[28-Feb-2020 22:46:41 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 284
+[28-Feb-2020 22:50:06 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 284
+[28-Feb-2020 22:50:30 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 284
+[28-Feb-2020 22:53:16 America/Boise] PHP Fatal error:  Cannot use [] for reading in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 295
+[02-Mar-2020 15:13:57 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:13:57 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:14:00 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:14:00 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:14:37 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:14:37 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:14:47 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:14:47 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:15:04 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:15:04 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:15:20 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:15:20 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:15:31 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:15:31 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:16:21 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:16:21 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:23 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:23 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:25 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:25 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:32 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:32 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:51 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:17:51 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:18 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:18 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:26 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:26 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:41 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:41 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:51 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:51 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:59 America/Boise] PHP Warning:  include_once(updateService.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:18:59 America/Boise] PHP Warning:  include_once(): Failed opening 'updateService.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[02-Mar-2020 15:22:07 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:22:51 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:23:27 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:24:03 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:24:11 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:24:40 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:25:01 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:25:31 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:26:48 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:27:13 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:27:35 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:27:56 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:28:48 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:28:55 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:29:00 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:29:23 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Services.php on line 59
+[02-Mar-2020 15:35:05 America/Boise] PHP Recoverable fatal error:  Object of class PDO could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Practitioners.php on line 32
+[02-Mar-2020 15:35:06 America/Boise] PHP Recoverable fatal error:  Object of class PDO could not be converted to string in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Practitioners.php on line 32
+[02-Mar-2020 15:35:18 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/businessSettings.php on line 278

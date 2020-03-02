@@ -106,5 +106,60 @@
         <!--<p class="errorMSGLogin"><?php   //echo $_SESSION['ownerID'];     ?></p>-->
         <?php $_SESSION['errorMSG'] = ""; ?>
         
+        <br>
+        
+        <div id="loginDivBusinessSearchOuter">
+            <div id="loginDivBusinessSearch">
+                <form action="submitBusinessSearch.php" method="POST" class="loginDivBusinessSearchForm">
+                    
+                    <input  class="businessSearchFields" type="text"     name="businessName" placeholder="Search for a business..." />
+                    
+                    <button id="businessSearchFieldsButton" type="submit"   name="action" value="submitBusinessSearch" >Search</button>
+                    
+                </form>
+            </div>
+        </div>
+        
+        
     </BODY>
 </HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

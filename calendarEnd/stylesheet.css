@@ -1,0 +1,335 @@
+body {
+    font-family:Arial;
+}
+
+.nextBtn {
+    float:right;
+    border:1px solid red;
+    text-decoration:none;
+    color:white;
+    background-color:red;
+    padding:5px;
+    font-family:Arial;
+    margin-top:-65px;
+}
+
+.nextBtn:hover, .prevBtn:hover {
+    background-color:orange;
+    border:1px solid orange;
+    color:white;
+    text-decoration:none;
+}
+
+.prevBtn {
+    float:left;
+    border:1px solid red;
+    text-decoration:none;
+    color:white;
+    background-color:red;
+    padding:5px;
+    font-family:Arial;
+    margin-top:-65px;
+}
+
+#timeInfo {
+    /* min-width:425px;
+    min-height:150px; */
+    border:0px solid black;
+    width:425px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+#saveBtn {
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    position:static;
+}
+
+
+#calendar {
+    border:3px solid black;
+    width:55%;
+    max-width:1500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    min-width:1050px;
+}
+
+.calendarTD {
+    border:1px solid black;
+    width:150px;
+    height:150px;
+    text-align:center;
+    color:green;
+    min-width:100px;
+    min-height:100px;
+}
+
+.calendarTDInactive {
+    border:1px solid black;
+    width:150px;
+    height:150px;
+    text-align:center;
+    color:red;
+}
+
+.calendarTable {
+    width:100%;
+    margin:0 auto;
+}
+
+.calendarTH {
+    text-align:center;
+}
+
+/*Calendar media query*/
+@media only screen and (max-width: 1050px) {
+    
+    #calendar {
+        width:50%;
+        min-width:603px;
+        background-color:lightblue;
+    }
+    .calendarTable {
+        min-width:600px;
+    }
+    .calendarTD {
+        width:85px;
+        height:85px;
+        min-width:85px;
+        min-height:85px;
+    }
+    .calendarTDInactive {
+        border:1px solid black;
+        width:85px;
+        height:85px;
+        text-align:center;
+        color:red;
+    }
+    .calendarTH {
+        font-size:12px;
+    }
+    .calendarYear {
+        font-size:12px;
+    }
+    
+    
+    /*next and previous buttons*/
+    .nextBtn {
+        float:right;
+        border:1px solid red;
+        text-decoration:none;
+        color:white;
+        background-color:red;
+        padding:5px;
+        font-family:Arial;
+        font-size:10px;
+        margin-top:-35px;
+    }
+    
+    .nextBtn:hover, .prevBtn:hover {
+        background-color:orange;
+        border:1px solid orange;
+        color:white;
+        text-decoration:none;
+        font-size:10px;
+    }
+    
+    .prevBtn {
+        float:left;
+        border:1px solid red;
+        text-decoration:none;
+        color:white;
+        background-color:red;
+        padding:5px;
+        font-family:Arial;
+        font-size:10px;
+        margin-top:-35px;
+    }
+    
+    #timeInfo {
+        display:none;
+    }
+    
+    #saveBtn {
+        display:none;
+    }
+    
+}
+
+/*Calendar media query*/
+@media only screen and (max-width:400px) {
+    
+    #calendar {
+        width:50%;
+        min-width:303px;
+        background-color:lightyellow;
+    }
+    .calendarTable {
+        min-width:300px;
+    }
+    .calendarTD {
+        width:42px;
+        height:42px;
+        min-width:42px;
+        min-height:42px;
+    }
+    .calendarTDInactive {
+        border:1px solid black;
+        width:42px;
+        height:42px;
+        text-align:center;
+        color:red;
+    }
+    .calendarTH {
+        font-size:8px;
+    }
+    
+    #timeInfo {
+        display:none;
+    }
+    
+    #saveBtn {
+        display:none;
+    }
+    
+}
+
+#appointmentTable
+{
+    background-color:red;
+}
+
+.appointmentSchedulerForm
+{
+    /*border:1px solid black;*/
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+#practitionersListing
+{
+    width:12.5%;
+    height:30px;
+    font-family:arial, sans-serif;
+}
+
+#servicesListing
+{
+    width:12.5%;
+    height:30px;
+    font-family:arial, sans-serif;
+}
+
+.schedulerDivInput
+{
+    width:12.5%;
+}
+
+.appointmentSchedulerDisclaimer
+{
+    color:red;
+    font-style:italic;
+    text-align:center;
+}
+
+#btnAppointmentSet
+{
+    width:12.5%;
+    height:60px;
+    font-size:14px;
+}
+
+#appointmentSchedulerDiv
+{
+    margin:0 auto;
+    /*border:1px solid black;*/
+    width:80%;
+    height:300px;
+}
+
+/*Appointment form thing*/
+@media only screen and (max-width:800px)
+{
+    #appointmentSchedulerDiv
+    {
+        width:100%;   
+    }
+    
+    .appointmentSchedulerDisclaimer
+    {
+        font-size:8px;
+    }
+    
+    #servicesListing
+    {
+        display:block;
+        width:30%;
+        margin:0 auto;
+    }
+    
+    #practitionersListing
+    {
+        display:block;
+        width:30%;
+        margin:0 auto;
+    }
+    
+    .schedulerDivInput
+    {
+        display:block;
+        width:30%;
+        margin:0 auto;
+    }
+}
+
+
+/*Business search thing*/
+#calendarBusinessSearchDiv
+{
+    /*border:1px solid black;*/
+    width:525px;
+    margin:0 auto;
+}
+
+.calendarBusinessSearchInput
+{
+    width:80%;
+}
+
+#btnAppointmentSet
+{
+    width:20%;
+}
+
+.calendarLogin
+{
+    float:right;
+    display:inline-block;
+    text-decoration:none;
+}
+.calendarLogin:hover
+{
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

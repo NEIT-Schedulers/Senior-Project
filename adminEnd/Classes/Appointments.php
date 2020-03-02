@@ -210,118 +210,131 @@
         // Function for inserting appointment into database
         public function submitAppointment($clientFirstName, $clientLastName, $clientEmail, $clientPhone, $date, $time, $businessID, $serviceID, $practitionerID)
         {
+            // The following is where the majority of the SQL is performed in this function.
+            // Grabs the operating hours of the store, so the user can't set an appointment outside these hours.
             $sql = "SELECT TIME(openingHour) AS openingHour, TIME(closingHour) AS closingHour FROM owners WHERE ownerID = :ownerID";
             $sql = $this->conn->prepare($sql);
             $sql->bindParam(':ownerID', $businessID);
             $sql->execute();
             $results = $sql->fetch(PDO::FETCH_ASSOC);
-            // echo $results['openingHour'] . "<br>";
-            // echo $results['closingHour'] . "<br>";
-            print_r($results);
-            echo "<br>";
             
             
-            
-            echo "<hr>";
-            
-            
-            
+            // Grabs the length of time of the appointment the user selected.
             $sql = "SELECT lengthOfTime FROM services WHERE serviceID = :serviceID";
             $sql = $this->conn->prepare($sql);
             $sql->bindParam(':serviceID', $serviceID);
             $sql->execute();
-            $lengthOfTime = $sql->fetch(PDO::FETCH_ASSOC);
-            $lengthOfTime = $lengthOfTime['lengthOfTime'];
-            $lengthOfTime -= 1;
-            echo "LENGTH OF TIME: " . $lengthOfTime . " minutes<br>";
+            $lengthOfTimeArr = $sql->fetch(PDO::FETCH_ASSOC);       
+            
+            
+            // Grabs list of appointments for the day, along with duration of each appointment.
+            $sql = "SELECT TIME(appointments.appointmentTime) AS time, s.lengthOfTime 
+            FROM appointments
+            INNER JOIN services AS s ON(
+                appointments.serviceID = s.serviceID
+            )
+            WHERE appointments.PractitionerID = :pracID AND DATE(appointments.appointmentTime) = :date 
+            ORDER BY appointments.appointmentTime";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':pracID', $practitionerID);
+            $sql->bindParam(':date', $date);
+            $sql->execute();
+            $resultsAppointmentsForTheDay = $sql->fetchAll(PDO::FETCH_ASSOC);
+            // print_r($resultsAppointmentsForTheDay);           
             
             
             
-            // The year, month, and day
-            // $year = date("Y", strtotime($date));
-            // $month = date("m", strtotime($date));
-            // $day = date("d", strtotime($date));
-            // $date = date('Y-m-d', strtotime($yea . "-" . $month . "-" . $day));
-            
+            // Grabs the opening hour and closing hour and turns them into datetime variables for PHP.
+            $openingHour = date('H:i', strtotime($results['openingHour']));
+            $closingHour = date('H:i', strtotime($results['$closingHour']));
+
+            // Formats the date and time into datetime variables.
             $date = date('Y-m-d', strtotime($date));
-            echo $date;
-            
-            
-            
-            // The hour and minute
-            // $hour = date("H", strtotime($time));
-            // $minutes = date("i", strtotime($time));
-            // $time = $hour . ":" . $minutes;
-            // $time = date('H:i', strtotime($time));
-            
             $time = date('H:i', strtotime($time));
-            echo "<br>" . $time;
-            echo "<br>";
+
+            // Sets a bool variable to false, used to check if the appointment being made has any collisions.            
+            $boolThing = false;
+            
+            // Grabs the length of time for the appointment.
+            // $lengthOfTime = $lengthOfTimeArr['lengthOfTime'];
+            // $lengthOfTime -= 1;     
+            
+            // Sets the time when the appointment will end.
+            $timeEnding = date('H:i', strtotime('+' . $lengthOfTimeArr['lengthOfTime'] . " minutes", strtotime($time)));
+            // echo "TIME ENDING $timeEnding";
+            
+            // echo $openingHour . "<br>";
+            // echo $closingHour . "<br>";
+            // echo "time: " . $time . ", opening hour: " . $openingHour . "<br>";
 
             
             
-            // Grabbing most recent appointment made
-            $sql = "SELECT appointmentTime AS time FROM appointments WHERE practitionerID = :pracID ORDER BY appointmentTime ASC LIMIT 1";
-            $sql = $this->conn->prepare($sql);
-            $sql->bindParam(':pracID', $practitionerID);
-            $sql->execute();
-            $resultRecentTime = $sql->fetch(PDO::FETCH_ASSOC);
-            echo "<br>Most recent appointment time: " . $resultRecentTime['time'];
-            
-            
-            
-            // Grabbing the length of the most recent appointment made
-            $sql = "SELECT lengthOfTime FROM services WHERE serviceID = :serviceID";
-            $sql = $this->conn->prepare($sql);
-            $sql->bindParam(':serviceID', $resultRecentTime['serviceID']);
-            $sql->execute();
-            $resultServiceID = $sql->fetch(PDO::FETCH_ASSOC);
-            $resultServiceID = $resultServiceID['lengthOfTime'];
-            echo "<br>Duration of that appointment: " . $resultServiceID;
-            echo "<br>";
-            
-            
-            
-            
-            
-            
+            // Checks if the appointment being made has any collisions.
+            foreach($resultsAppointmentsForTheDay AS $re)
+            {
+                // Grabs the length of time of the appointment being checked against.
+                $lengthTime = $re['lengthOfTime'];
+                
+                // Grabs the time when the appointment starts and turns it into a datetime variable
+                $appointmentTimeBeginning = $re['time'];
+                $appointmentTimeBeginning = date('H:i', strtotime($appointmentTimeBeginning));
+                // echo "APT " . $appointmentTimeBeginning . "<br>";
+                
+                // Grabs the time when the appointment ends and turns it into  a datetime variable
+                $appointmentTimeEnding = $appointmentTimeBeginning;
+                $appointmentTimeEnding = date('H:i', strtotime('+' . $lengthTime . " minutes", strtotime($appointmentTimeBeginning)));
+                // echo "APT " . $appointmentTimeEnding . "<br>";
+                
 
 
-            $lastTime = date('H:i',strtotime('-' . $lengthOfTime . " minutes",strtotime($time)));
-            $nextTime = date('H:i', strtotime('+' . $lengthOfTime . " minutes", strtotime($time)));
-            echo $lastTime . " " . $nextTime;
-            echo "<br>";
+                // Checks if the time when the appointment being set occurs after the appointment being checked against...
+                if($time >= $appointmentTimeBeginning)
+                {
+                    // echo "<br>$time occurs after $appointmentTimeBeginning... ";
+                    
+                    // Checks if the appointment being checked against ends before the appointment being set starts.
+                    // If true, the appointments do not collide and it keeps checking today's appointments with this practitioner to see if there are any collisions.
+                    if($appointmentTimeEnding <= $time)
+                    {
+                        // echo " but that appointment ends before your appointment starts. You're good!";
+                    }
+                    
+                    // Checks if the appointment being checked against ends after the appointment being set starts.
+                    // If true, the appointments collide and won't be set.
+                    elseif($appointmentTimeEnding > $time)
+                    {
+                        // echo " and the appointment continues past when yours would've started. Try again!";
+                        // echo "<br>$time is bigger than $appointmentTimeBeginning and $timeEnding is bigger than $appointmentTimeEnding<br>";
+                        $boolThing = true;
+                        break;
+                    }
+                }
+                
+                // Checks if the appointment being set will run into other appointments in the future
+                if($appointmentTimeBeginning >= $time && $appointmentTimeBeginning <= $timeEnding)
+                {
+                    $boolThing = true;
+                    break;
+                }
+            }
             
             
-            
-            
-            
-
-            $appointmentDateTime = $date . " " . $time;
-            
-            $sql = "SELECT * FROM appointments WHERE DATE(appointmentTime) = :appointmentDate AND TIME(appointmentTime) BETWEEN :lastTime AND :nextTime AND practitionerID = :pracID";
-            $sql = $this->conn->prepare($sql);
-            $sql->bindParam(':appointmentDate', $date);
-            $sql->bindParam(':lastTime', $lastTime);
-            $sql->bindParam(':nextTime', $nextTime);
-            $sql->bindParam(':pracID', $practitionerID);
-            $sql->execute();
-            $resultsApp = $sql->fetch(PDO::FETCH_ASSOC);
-            print_r($resultsApp);
-            
-            echo $time;
-            echo "<br>";
-            $results['openingHour'] = date('H:i', strtotime($results['openingHour']));
-            echo "<br>";
-            $results['closingHour'] = date('H:i', strtotime($results['closingHour']));
-            
-
-            // Checks that the appointment was being set during business operating hours
-            if($time >= $results['openingHour'] && $time <= $results['closingHour'])
+            // Some random time variable checks
+            // echo "appointment begins at $time<br>";
+            // echo "appointment ends at $timeEnding<br>";
+            // echo "Opens at $openingHour<br>";
+            // echo "Closes at $closingHour";
+    
+            // Checks that the appointment was being set during business operating hours...
+            if($time >= $openingHour && $timeEnding <= $closingHour)
             {
                 // Checks that the appointment does not collide with other appointments
-                if($resultsApp == null)
+                if($boolThing == false)
                 {
+                    // Sets the date and time variables into a datetime variable for insertion into the database.
+                    $appointmentDateTime = $date . " " . $time;
+                    
+                    // Inserts the appointment into the database.
                     $sql = "INSERT INTO appointments VALUES(NULL, :appointmentDateTime, :businessID, :serviceID, :practitionerID, :clientFirstName, :clientLastName, :clientEmail, :clientPhone)";
                     $sql = $this->conn->prepare($sql);
                     $sql->bindParam(':appointmentDateTime', $appointmentDateTime);
@@ -333,17 +346,24 @@
                     $sql->bindParam(':clientEmail', $clientEmail);
                     $sql->bindParam(':clientPhone', $clientPhone);
                     $sql->execute();
-                    echo "<br>PASSED!";
+                    // echo "<br>PASSED!";
+                    return "Appointment set!";
                 }
                 else
                 {
-                    echo "<br>ALSO DIDN'T PASS";
+                    // echo "<br>ALSO DIDN'T PASS";
+                    return "ERROR: Appointment collision!";
                 }
             }
+            // ... if appointment doesn't occur during operating hours, fails
             else
             {
-                echo "<br>DIDN'T PASS";
+                // echo "<br>DIDN'T PASS";
+                return "ERROR: Appointment collision!";
             }
+            
+            
+            
 
         }
 

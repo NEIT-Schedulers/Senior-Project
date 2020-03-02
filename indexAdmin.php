@@ -75,6 +75,10 @@
                 include_once('adminEnd/updateBusinessOwnerName.php');
                 break;
                 
+            case "updateService":
+                include_once('adminEnd/updateService.php');
+                break;
+                
             default:
                 if(isset($_SESSION['ownerLogin']))
                 {

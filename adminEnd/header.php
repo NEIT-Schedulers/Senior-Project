@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
     
     <!--Header Logo-->
-    <a class="navbar-brand" href="https://chrispeloso.com/SeniorProject4" style="font-family:sans-serif;color:black;padding:10px;font-weight:bold;">Schedulers</a>
+    <a class="navbar-brand" href="https://chrispeloso.com/SeniorProject4" style="font-family:sans-serif;color:black;padding:10px;font-weight:bold;">Scheduly</a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

@@ -45,6 +45,18 @@
             $sql->bindParam(':lengthOfTime', $lengthOfTime);
             $sql->execute();
         }
+        
+        public function update($sID, $serviceName, $description, $price, $lengthOfTime)
+        {
+            $sql = "UPDATE services SET serviceName = :serviceName, description = :desc, price = :price, lengthOfTime = :lengthOfTime WHERE serviceID = :serviceID";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':serviceName', $serviceName);
+            $sql->bindParam(':desc', $description);
+            $sql->bindParam(':price', $price);
+            $sql->bindParam(':lengthOfTime', $lengthOfTime);
+            $sql->bindParam(':serviceID', $sID);
+            $sql->execute();
+        }
     }
 
 
