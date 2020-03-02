@@ -1,0 +1,127 @@
+*{
+    font-family:sans-serif;
+}
+
+.pageContainer{
+    /*border:1px solid black;*/
+    width:95%;
+    margin:0 auto;
+}
+
+.loginH3
+{
+    text-align:center;
+}
+
+.registerLink
+{
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+}
+
+.registerLink:visited
+{
+    color:blue;
+}
+
+.registerLink:hover
+{
+    color:black;
+    cursor:pointer;
+}
+
+.registerLabel
+{
+    text-align:center;
+    margin:0 auto;
+    font-size:24px;
+    display:block;
+}
+
+.errorMSGLogin
+{
+    text-align:center;
+    margin:0 auto;
+    color:red;
+}
+
+#submitBtnLogin
+{
+    cursor:pointer;
+}
+
+.businessSettingsLabel
+{
+    
+}
+
+.businessSettingsHours
+{
+    
+}
+
+.loginH3
+{
+    font-size:50px;
+}
+
+.ownerLoginDiv
+{
+    margin:0 auto;
+    width:95%;
+    padding:5%;
+}
+
+.emailLogin
+{
+    /*width:200px;*/
+    font-size:24px;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}    
+
+.registerLink
+{
+    
+}
+
+#appointmentSchedulerDiv
+{
+    margin:0 auto;
+    border:1px solid black;
+    width:80%;
+    height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

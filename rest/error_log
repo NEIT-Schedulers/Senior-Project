@@ -1,0 +1,206 @@
+[10-Feb-2020 22:58:41 UTC] PHP Warning:  include_once(db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:58:41 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:58:41 UTC] PHP Warning:  include_once(Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:58:41 UTC] PHP Warning:  include_once(): Failed opening 'Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:58:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 22:58:43 UTC] PHP Warning:  include_once(db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:58:43 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:58:43 UTC] PHP Warning:  include_once(Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:58:43 UTC] PHP Warning:  include_once(): Failed opening 'Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:58:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 22:58:58 UTC] PHP Warning:  include_once(db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:58:58 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:58:58 UTC] PHP Warning:  include_once(Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:58:58 UTC] PHP Warning:  include_once(): Failed opening 'Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:58:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 22:59:07 UTC] PHP Warning:  include_once(db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:59:07 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:59:07 UTC] PHP Warning:  include_once(Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:07 UTC] PHP Warning:  include_once(): Failed opening 'Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 22:59:26 UTC] PHP Warning:  include_once(db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:59:26 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:59:26 UTC] PHP Warning:  include_once(../Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:26 UTC] PHP Warning:  include_once(): Failed opening '../Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 22:59:41 UTC] PHP Warning:  include_once(db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:59:41 UTC] PHP Warning:  include_once(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 10
+[10-Feb-2020 22:59:41 UTC] PHP Warning:  include_once(../adminEnd/Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:41 UTC] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 22:59:51 UTC] PHP Warning:  include_once(../adminEnd/Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:51 UTC] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 22:59:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:00:33 UTC] PHP Warning:  include_once(../adminEnd/Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 23:00:33 UTC] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 23:00:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:01:07 UTC] PHP Warning:  include_once(../adminEnd/Classes/Client.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 23:01:07 UTC] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Client.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 23:01:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:01:39 UTC] PHP Warning:  include_once(../adminEnd/Classes/Owner.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 23:01:39 UTC] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owner.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 13
+[10-Feb-2020 23:01:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Owner' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:02:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Owner' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:02:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Owner' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:02:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Owner' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:02:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Owner' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:17
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 17
+[10-Feb-2020 23:14:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:21
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 21
+[10-Feb-2020 23:26:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:21
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 21
+[10-Feb-2020 23:26:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:21
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 21
+[10-Feb-2020 23:58:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:21
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 21
+[10-Feb-2020 23:58:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Appointment' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:21
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 21
+[10-Feb-2020 23:59:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on null in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:42
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 42
+[11-Feb-2020 00:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on null in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:42
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 42
+[11-Feb-2020 00:01:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on null in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:42
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 42
+[11-Feb-2020 00:07:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Practitioner' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:24
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 24
+[11-Feb-2020 00:07:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Practitioner' not found in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:24
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 24
+[11-Feb-2020 00:24:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::readInnerJoin(), 0 passed in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 49 and exactly 1 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:33
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php(49): Appointments->readInnerJoin()
+#1 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 33
+[11-Feb-2020 00:24:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::readInnerJoin(), 0 passed in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 49 and exactly 1 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:33
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php(49): Appointments->readInnerJoin()
+#1 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 33
+[11-Feb-2020 00:24:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::readInnerJoin(), 0 passed in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 49 and exactly 1 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:33
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php(49): Appointments->readInnerJoin()
+#1 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 33
+[11-Feb-2020 00:25:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::readInnerJoin(), 0 passed in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 49 and exactly 1 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:33
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php(49): Appointments->readInnerJoin()
+#1 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 33
+[11-Feb-2020 00:25:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::readInnerJoin(), 0 passed in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 49 and exactly 1 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:33
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php(49): Appointments->readInnerJoin()
+#1 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 33
+[11-Feb-2020 00:26:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Appointments::readInnerJoin(), 0 passed in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 49 and exactly 1 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php:33
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php(49): Appointments->readInnerJoin()
+#1 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 33
+[11-Feb-2020 00:44:42 UTC] PHP Fatal error:  Cannot redeclare Appointments::readInnerJoin() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 56
+[11-Feb-2020 00:44:43 UTC] PHP Fatal error:  Cannot redeclare Appointments::readInnerJoin() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 56
+[11-Feb-2020 00:44:43 UTC] PHP Fatal error:  Cannot redeclare Appointments::readInnerJoin() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 56
+[11-Feb-2020 00:55:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 115
+[11-Feb-2020 00:55:59 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 115
+[11-Feb-2020 00:57:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::readInnerJoinClientFirstName() in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php:46
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/rest/index.php(3): include_once()
+#1 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 46
+[11-Feb-2020 01:09:01 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 71
+[11-Feb-2020 01:09:24 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 72
+[27-Feb-2020 00:57:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/chrispf0/public_html/SeniorProject4/rest/index.php:1) in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 3
+[27-Feb-2020 00:57:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/chrispf0/public_html/SeniorProject4/rest/index.php:1) in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 5
+[27-Feb-2020 00:57:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/chrispf0/public_html/SeniorProject4/rest/index.php:1) in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 6
+[27-Feb-2020 00:57:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/chrispf0/public_html/SeniorProject4/rest/index.php:1) in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 3
+[27-Feb-2020 00:57:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/chrispf0/public_html/SeniorProject4/rest/index.php:1) in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 5
+[27-Feb-2020 00:57:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/chrispf0/public_html/SeniorProject4/rest/index.php:1) in /home1/chrispf0/public_html/SeniorProject4/rest/restTest.php on line 6
