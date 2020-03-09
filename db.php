@@ -1,7 +1,7 @@
 <?php
 
 	$serverName = "localhost";
-    $dbName = "scheduling";
+    $dbName = "scheduling1";
     $userName = "root";
     $pword = "";
     

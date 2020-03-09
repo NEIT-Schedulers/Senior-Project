@@ -20,7 +20,7 @@
     {
         ?>
         
-            <p><?php echo $re['businessName']; ?> <a class="businessSearchResultsLink" href="https://chrispeloso.com/SeniorProject4/index.php?businessID=<?php echo $re['ownerID']; ?>">visit</a></p>
+            <p><?php echo $re['businessName']; ?> <a class="businessSearchResultsLink" href="../calendarEnd/index.php?businessID=<?php echo $re['ownerID']; ?>">visit</a></p>
         
         
         

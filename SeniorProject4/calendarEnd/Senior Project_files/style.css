@@ -1,0 +1,159 @@
+*{
+    font-family:sans-serif;
+}
+
+.pageContainer{
+    /*border:1px solid black;*/
+    width:95%;
+    margin:0 auto;
+}
+
+.loginH3
+{
+    text-align:center;
+}
+
+.registerLink
+{
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+}
+
+.registerLink:visited
+{
+    color:blue;
+    text-decoration:none;
+}
+
+.registerLink:hover
+{
+    color:black;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.registerLabel
+{
+    text-align:center;
+    margin:0 auto;
+    font-size:24px;
+    display:block;
+}
+
+.errorMSGLogin
+{
+    text-align:center;
+    margin:0 auto;
+    color:red;
+}
+
+#submitBtnLogin
+{
+    cursor:pointer;
+}
+
+.businessSettingsLabel
+{
+    
+}
+
+.businessSettingsHours
+{
+    
+}
+
+.loginH3
+{
+    font-size:50px;
+}
+
+.ownerLoginDiv
+{
+    margin:0 auto;
+    width:95%;
+    padding:5%;
+}
+
+.emailLogin
+{
+    /*width:200px;*/
+    font-size:24px;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}    
+
+/*The search area for businesses on the main landing page*/
+#loginDivBusinessSearch
+{
+    margin:0 auto;
+}
+
+.loginDivBusinessSearchForm
+{
+    /*border:1px solid orange;*/
+    margin:0 auto;
+}
+
+.businessSearchFields
+{
+    margin:0 auto;
+    /*text-align:center;*/
+    width:74%;
+    height:40px;
+    font-size:22px;
+}
+
+#loginDivBusinessSearchOuter
+{
+    margin:0 auto;
+    /*border:1px solid black;*/
+    width:30%;
+    max-width:500px;
+}
+
+#businessSearchFieldsButton
+{
+    width:24%;
+    height:100%;
+    font-size:22px;
+}
+
+.businessSearchResultsLink
+{
+    color:blue;
+    text-decoration:none;
+}
+
+.businessSearchResultsLink:hover
+{
+    color:purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

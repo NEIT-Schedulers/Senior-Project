@@ -1,0 +1,147 @@
+/* Nate's Styling */
+
+body {
+    padding: 1vh 2vw;
+}
+
+input {
+    height: 3vh;
+    border-radius: 1vh;
+    border: 1px solid #d0d0d0;
+    padding-left: 1vh;
+}
+
+button {
+    height: 3.5vh;
+    border-radius: 1vh;
+    border: 1px solid #699df0;
+    background-color: #2477c9;
+    color: #f0f0f0;
+}
+
+.calendarLogin {
+    padding-top: 1vh;
+    text-decoration: none;
+    color: #202020;
+    font-weight: bold;
+}
+
+.click {
+    padding-top: 1vh;
+    text-decoration: none;
+    color: #156ba1;
+    font-weight: bold;
+}
+
+.click:hover {
+    text-decoration: underline;
+}
+
+.calendarBtn {
+    position: relative;
+    width: 8vh;
+    height: 8vh;
+    background-color: #4d8ab0;
+    text-decoration: none;
+    color: white;
+    border-radius: 5vh;
+    font-size: 6.5vh;
+}
+
+.calendarBtn:hover {
+    position: relative;
+    width: 8vh;
+    height: 8vh;
+    background-color: #86bfe3;
+    text-decoration: none;
+    color: white;
+    border-radius: 5vh;
+    font-size: 6.5vh;
+    border: none;
+}
+
+.prevBtn {
+    top: 37vh;
+    left: -3vw;
+    border: none;
+}
+
+.nextBtn {
+    top: 37vh;
+    right: -3vw;
+    border: none;
+}
+
+.calendarYear {
+    margin: 0;
+}
+
+#calendar {
+    margin-top: 4vh;
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid #e0e0e0;
+    border-radius: 2vh;
+    padding: 2vh 1vh 1vh 1vh;
+}
+
+.calendarTable {
+    margin-top: 2vh;
+    width: 100%;
+    height: 88%;
+}
+
+tr th {
+    height: 3vh;
+}
+
+.calendarTH {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+tbody {
+    height: 100%;
+}
+
+
+td {
+    width: 14%;
+}
+
+.calendarTD {
+    transition: background-color .25s;
+    padding: 15% 0 0 15%;
+    width: 83%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    background-color: #d0ecf5;
+}
+
+.calendarTD:hover {
+    transition: background-color .25s;
+    background-color: white;
+}
+
+.calendarHover {
+    transition: opacity .25s;
+    text-align: center;
+    padding-right: 15%;
+    opacity: 0;
+}
+
+.calendarHover:hover {
+    transition: opacity .25s;
+    opacity: 1;
+}
+
+.calendarTDInactive {
+    padding: 15% 0 0 15%;
+    width: 80%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    background-color: #fac3c3;
+}

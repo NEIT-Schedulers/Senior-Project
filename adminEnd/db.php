@@ -1,8 +1,13 @@
 <?php
 
-    $dsn = "mysql:host=chrispeloso.com;dbname=chrispf0_SeniorProject2";
-    $userName = "chrispf0_cpeloso";
-    $pword = "W#+TGv)^CGL1";
+    //$dsn = "mysql:host=chrispeloso.com;dbname=chrispf0_SeniorProject2";
+    //$userName = "chrispf0_cpeloso";
+    //$pword = "W#+TGv)^CGL1";
+
+	$serverName = "localhost";
+    $dbName = "scheduling1";
+    $userName = "root";
+    $pword = "";
     
     try{
         $db = new PDO($dsn, $userName, $pword);

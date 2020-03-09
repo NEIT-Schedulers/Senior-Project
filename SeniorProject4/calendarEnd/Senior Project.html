@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://chrispeloso.com/SeniorProject4/index.php?businessID=1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Senior Project</title>
+        
+        
+        
+        <script src="./Senior Project_files/jquery-3.3.1.slim.min.js.download" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="./Senior Project_files/popper.min.js.download" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        
+        
+    </head><div id="screen-shader" style="
+            transition: opacity 0.1s ease 0s; 
+            z-index: 2147483647;
+            margin: 0; 
+            border-radius: 0; 
+            padding: 0; 
+            background: #fac563; 
+            pointer-events: none; 
+            position: fixed; 
+            top: -10%; 
+            right: -10%; 
+            width: 120%; 
+            height: 120%; 
+            opacity: 0.6000;
+            mix-blend-mode: multiply; 
+            display: none;
+        "></div>
+    <body>
+
+        
+
+
+    <link rel="stylesheet" type="text/css" href="./Senior Project_files/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./Senior Project_files/nateStyles.css">
+
+
+
+
+    <!--Time info things.-->
+    <p id="timeInfo"></p>
+    <!--<button id="saveBtn" type="submit" onclick="calendarInformation()">Time Info</button>-->
+    <script>
+
+        function calendarInformation() {
+            if(document.getElementById("timeInfo").innerHTML === "")
+            {
+                document.getElementById("timeInfo").innerHTML = "Current date: 3/8/2020<br>";
+                document.getElementById("timeInfo").innerHTML += "Day of week: Sunday<br>";
+                document.getElementById("timeInfo").innerHTML += "Day of week as a number(0-6, 0 being monday 6 being saturday): 08<br>";
+                document.getElementById("timeInfo").innerHTML += "Last day of the month: 31<br>";
+                document.getElementById("timeInfo").innerHTML += "Last day of month(2020-3-01): Sunday<br>";
+                document.getElementById("timeInfo").innerHTML += "This year is a leap year.<br>";
+                document.getElementById("timeInfo").innerHTML += "Day of current month(Sunday): 0";
+                document.getElementById("timeInfo").display = "block";
+                document.getElementById("timeInfo").style = "border:2px solid black;width:425px;margin-left:auto;margin-right:auto;";
+            }
+            else{
+                document.getElementById("timeInfo").innerHTML = "";
+                document.getElementById("timeInfo").display = "none";
+                document.getElementById("timeInfo").style = "border:0px solid black;width:425px;margin-left:auto;margin-right:auto;";
+            }
+        }
+
+        // document.getElementById("timeInfo").innerHTML = "Current date: 3/8/2020<br>";
+        // document.getElementById("timeInfo").innerHTML += "Day of week: Sunday<br>";
+        // document.getElementById("timeInfo").innerHTML += "day of week as a number(0-6, 0 being monday 6 being saturday): 08<br>";
+        // document.getElementById("timeInfo").innerHTML += "last day of the month: 31<br>";
+        // document.getElementById("timeInfo").innerHTML += "last day of month(2020-3-01): Sunday<br>";
+        // document.getElementById("timeInfo").innerHTML += "This year is a leap year.<br>";
+        // document.getElementById("timeInfo").innerHTML += "day of current month(Sunday): 0";
+    </script>
+    
+    <span class="calendarLogin">Looking for admin sign in? <a href="https://chrispeloso.com/SeniorProject4/" class="click"> Click here</a></span>
+
+
+    <!--Search bar-->
+    <div id="calendarBusinessSearchDiv">
+        
+        <form action="https://chrispeloso.com/SeniorProject4/index.php" method="GET">
+            
+            <input type="input" class="calendarBusinessSearchInput" name="searchParameters" placeholder="Search for a business...">
+            
+            <button type="submit" id="btnSearchParameters" name="action" value="submitBusinessSearch">Search</button>
+            
+        </form>    
+        
+    </div>
+    
+    <br>
+
+<center>
+<div id="calendar">
+    <center>
+        <h3 class="calendarYear">2020</h2>
+        <h1 class="calendarYear">March</h1>
+    </center>
+
+    <!-- Reduce calendar one month -->
+    <a href="https://chrispeloso.com/SeniorProject4/index.php?businessID=1&amp;setMonth=2&amp;setYear=2020" class="prevBtn calendarBtn"><</a>
+
+    <!-- Advance calendar one month -->
+    <a href="https://chrispeloso.com/SeniorProject4/index.php?businessID=1&amp;setMonth=4&amp;setYear=2020" class="nextBtn calendarBtn">></a>
+
+
+    <table class="calendarTable">
+
+        <tbody><tr>
+
+            <th><div class="calendarTH">Sunday</div></th>
+            <th><div class="calendarTH">Monday</div></th>
+            <th><div class="calendarTH">Tuesday</div></th>
+            <th><div class="calendarTH">Wednesday</div></th>
+            <th><div class="calendarTH">Thursday</div></th>
+            <th><div class="calendarTH">Friday</div></th>
+            <th><div class="calendarTH">Saturday</div></th>
+
+        </tr>
+
+        <tr>
+
+            
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=1&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">1</div>
+                            </td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=2&#39;" style="cursor:pointer;">
+                            <div class="calendarTD">2</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=3&#39;" style="cursor:pointer;">
+                            <div class="calendarTD">3</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=4&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">4</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=5&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">5</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=6&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">6</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=7&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">7</div></td>
+
+                        
+                                </tr>
+                                
+                                <tr>
+
+                            
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=8&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">8</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=9&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">9</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=10&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">10</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=11&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">11</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=12&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">12</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=13&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">13</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=14&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">14</div></td>
+
+                        
+                                </tr>
+                                
+                                <tr>
+
+                            
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=15&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">15</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=16&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">16</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=17&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">17</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=18&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">18</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=19&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">19</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=20&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">20</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=21&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">21</div></td>
+
+                        
+                                </tr>
+                                
+                                <tr>
+
+                            
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=22&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">22</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=23&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">23</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=24&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">24</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=25&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">25</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=26&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">26</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=27&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">27</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=28&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">28</div></td>
+
+                        
+                                </tr>
+                                
+                                <tr>
+
+                            
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=29&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">29</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=30&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">30</div></td>
+
+                        
+                            <td onclick="location.href=&#39;?businessID=1&amp;setMonth=3&amp;setYear=2020&amp;setDay=31&#39;" style="cursor:pointer;">
+                                <div class="calendarTD">31</div></td>
+
+                        
+                <td>
+                    <div class="calendarTDInactive">1</div></td>
+
+            
+                <td>
+                    <div class="calendarTDInactive">2</div></td>
+
+            
+                <td>
+                    <div class="calendarTDInactive">3</div></td>
+
+            
+                <td>
+                    <div class="calendarTDInactive">4</div></td>
+
+            
+        </tr>
+
+
+
+
+
+
+    </tbody></table>
+<!-- Ends calendar div -->
+</div>
+</center>
+        
+    
+</body></html>
