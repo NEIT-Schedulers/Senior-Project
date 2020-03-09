@@ -156,6 +156,85 @@ td {
     background-color: #fac3c3;
 }
 
+@media only screen and (orientation: portrait) {
+
+    body {
+        font-size: 1vh;
+    }
+
+    #calendar {
+        margin-top: 4vh;
+        height: auto;
+        width: 95%;
+        border: 1px solid #e0e0e0;
+        border-radius: 2vh;
+        padding: 2vh 1vh 1vh 1vh;
+    }
+
+    .calendarTable {
+        margin-top: 0;
+        width: 100%;
+        height: 40vh;
+    }
+
+    .calendarTH {
+        height: 2vh;
+    }
+
+    .calendarBtn {
+        top: 50vh;
+    }
+
+    input {
+        font-size: 1.2vh;
+    }
+
+    button {
+        width: 15vw;
+        font-size: 1.2vh;
+        margin-left: 2vw;
+    }
+
+    tr th {
+        height: 0;
+    }
+
+    tr {
+        height: 0;
+    }
+
+    #calendarBusinessSearchDiv {
+        margin-top: 5vh;
+        width: 100vw;
+    }
+
+    #calendarBusinessSearchDiv input {
+        width: 75vw;
+    }
+
+    .calendarLogin {
+        font-size: 1.25vh;
+    }
+
+    #appointmentSchedulerDiv {
+        width: 90vw;
+        font-size: 1.5vh;
+    }
+
+    .formEntry select, input {
+        font-size: 1.5vh;
+        border-radius: 1.5vw;
+    }
+
+    .formEntry button {
+        width:25vw;
+    }
+
+    .button {
+        font-size: 1.2vh;
+    }
+}
+
 .appointmentSchedulerForm {
     display: flex;
     flex-wrap: wrap;

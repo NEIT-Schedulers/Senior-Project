@@ -6,7 +6,7 @@
     <!--Search bar-->
     <div id="calendarBusinessSearchDiv">
         
-        <form action="https://chrispeloso.com/SeniorProject4/index.php" method="GET">
+        <form action="https://chrispeloso.com/SeniorProject4/index.php" method="GET" class="searchForm">
             
             <input type="input" class="calendarBusinessSearchInput" name="searchParameters" placeholder="Search for a business...">
             
