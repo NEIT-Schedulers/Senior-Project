@@ -4,7 +4,7 @@ body {
     padding: 1vh 2vw;
 }
 
-input {
+input, select {
     height: 3vh;
     border-radius: 1vh;
     border: 1px solid #d0d0d0;
@@ -16,6 +16,16 @@ button {
     border-radius: 1vh;
     border: 1px solid #699df0;
     background-color: #2477c9;
+    color: #f0f0f0;
+}
+
+.button {
+    height: 3.5vh;
+    padding: 1vh;
+    text-decoration: none;
+    border-radius: 1vh;
+    border: 1px solid #3cb5b5;
+    background-color: #0b9696;
     color: #f0f0f0;
 }
 
@@ -144,4 +154,38 @@ td {
     border: 1px solid gray;
     border-radius: 1vh;
     background-color: #fac3c3;
+}
+
+.appointmentSchedulerForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #d0d0d0;
+    border-radius: 1vh;
+    padding-bottom: 2vh;
+}
+
+.formEntry {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 36vh;
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
+
+.formEntry label {
+    width: 12vh;
+    text-align: left;
+}
+
+.entry {
+    width: 15vh;
+}
+
+.formEntry select {
+    width: 16.2vh;
+}
+
+.heading {
+    margin-bottom: 1vh;
 }

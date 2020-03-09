@@ -132,7 +132,7 @@ body {
         font-size:10px;
         margin-top:-35px;
     }
-    
+    /*
     .nextBtn:hover, .prevBtn:hover {
         background-color:orange;
         border:1px solid orange;
@@ -140,7 +140,7 @@ body {
         text-decoration:none;
         font-size:10px;
     }
-    
+    */
     .prevBtn {
         float:left;
         border:1px solid red;
@@ -214,7 +214,7 @@ body {
     margin:0 auto;
     text-align:center;
 }
-
+/*
 #practitionersListing
 {
     width:12.5%;
@@ -228,7 +228,7 @@ body {
     height:30px;
     font-family:arial, sans-serif;
 }
-
+*/
 .schedulerDivInput
 {
     width:12.5%;
@@ -240,14 +240,14 @@ body {
     font-style:italic;
     text-align:center;
 }
-
+/*
 #btnAppointmentSet
 {
     width:12.5%;
     height:60px;
     font-size:14px;
 }
-
+*/
 #appointmentSchedulerDiv
 {
     margin:0 auto;
@@ -268,7 +268,7 @@ body {
     {
         font-size:8px;
     }
-    
+    /*
     #servicesListing
     {
         display:block;
@@ -282,7 +282,7 @@ body {
         width:30%;
         margin:0 auto;
     }
-    
+    */
     .schedulerDivInput
     {
         display:block;
@@ -304,12 +304,12 @@ body {
 {
     width:80%;
 }
-
+/*
 #btnAppointmentSet
 {
     width:20%;
 }
-
+*/
 .calendarLogin
 {
     float:right;

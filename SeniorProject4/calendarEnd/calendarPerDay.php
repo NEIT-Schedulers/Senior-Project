@@ -1,6 +1,6 @@
 <!--the back button-->
 <br><br>
-<a href="?businessID=<?php echo $businessID; ?>&setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>" style="border:1px solid turquoise;background-color:turquoise;padding:5px;text-decoration:none;color:white;">Return to Calendar</a>
+<a href="?businessID=<?php echo $businessID; ?>&setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>" class="button">Return to Calendar</a>
 <br><br>
 
 <?php 
@@ -11,22 +11,22 @@
     
     
     // Pulls services for the business
-    include_once('adminEnd/db.php');
-    include_once('adminEnd/Classes/Services.php');
+    include_once('../adminEnd/db.php');
+    include_once('../adminEnd/Classes/Services.php');
     $service = new Services($db);
     $results = $service->pullServices($businessID);
     // print_r($results);
     
     
     // Pulls practitioners for the business
-    include_once('adminEnd/Classes/Practitioners.php');
+    include_once('../adminEnd/Classes/Practitioners.php');
     $practitioner = new Practitioners($db);
     $resultsPractitioners = $practitioner->pullPractitioners($businessID);
     // print_r($resultsPractitioners);
     
     // Pulls appointments thing
-    include_once('adminEnd/db.php');
-    include_once('adminEnd/Classes/Appointments.php');
+    include_once('../adminEnd/db.php');
+    include_once('../adminEnd/Classes/Appointments.php');
     $appointment = new Appointments($db);
     
     $allAppointmentsToday = $appointment->readInnerJoinBusinessIDWithPracID($_GET['businessID'], $dateThing);
@@ -40,31 +40,33 @@
 <br>
 
 <div id="appointmentSchedulerDiv">
-    
+    <h4 class="heading">Add Appointment</h4>
     <form action="index.php" method="POST" class="appointmentSchedulerForm">
     
         <!--Lists all the different service types-->
         <!--<select id="servicesListing" onchange="serviceChange(this.value)" name="serviceID">-->
-        <select id="servicesListing" name="serviceID">
-          <?php
-          
-            foreach($results as $re)
-            {
-                ?>
-                
-                    <option value="<?php echo $re['serviceID']; ?>"><?php echo $re['serviceName']; ?></option>
-                
-                <?php
-            }
-          
-          ?>
-          
-          
-          
-        </select>
+        <div class="formEntry">
+            <label for="servicesListing">Service: </label>
+            <select id="servicesListing" class="entry" name="serviceID">
+              <?php
+              
+                foreach($results as $re)
+                {
+                    ?>
+                    
+                        <option value="<?php echo $re['serviceID']; ?>"><?php echo $re['serviceName']; ?></option>
+                    
+                    <?php
+                }
+              
+              ?>
+            </select>
+        </div>
     
         <!--Practitioner selecter-->
-        <select id="practitionersListing" onchange="practitionerChange(this.value)" name="practitionerID">
+        <div class="formEntry">
+        <label for="practitionersListing">Practitioner: </label>
+        <select id="practitionersListing" class="entry" onchange="practitionerChange(this.value)" name="practitionerID">
             
             <?php
           
@@ -80,11 +82,24 @@
           ?>
             
         </select>
+        </div>
     
-        <input type="text"      name="clientFirstName"   placeholder="First Name"                                                        tabIndex=1 />
-        <input type="text"      name="clientLastName"    placeholder="Last Name"                                                         tabIndex=2 />
-        <input type="text"      name="clientEmail"       placeholder="Email"         pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}"         tabIndex=3 />
-        <input type="text"      name="clientPhone"       placeholder="Phone"                                                             tabIndex=4 />
+        <div class="formEntry">
+        <label for="firstName">First Name: </label>
+        <input type="text"  id="firstName"  class="entry"  name="clientFirstName"   placeholder="First Name"                                                        tabIndex=1 />
+        </div>
+        <div class="formEntry">
+        <label for="lastName">Last Name: </label>
+        <input type="text"  id="lastName"  class="entry"  name="clientLastName"    placeholder="Last Name"                                                         tabIndex=2 />
+        </div>
+        <div class="formEntry">
+        <label for="email">Email: </label>
+        <input type="text"   id="email"   name="clientEmail"    class="entry"   placeholder="Email"         pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}"         tabIndex=3 />
+        </div>
+        <div class="formEntry">
+        <label for="phone">Phone: </label>
+        <input type="text"   id="phone"   name="clientPhone"    class="entry"   placeholder="Phone"                                                             tabIndex=4 />
+        </div>
         
         <!--Sends the date-->
         <input type='hidden'    name="appointmentDate"                  value="<?php echo $dateThing; ?>"/> 
@@ -92,19 +107,32 @@
         <!--Sends the business ID-->
         <input type='hidden'    name="businessID"                       value="<?php echo $_GET['businessID']; ?>"/> 
         
-        <input type="time"      name="appointmentTime" />
+        <div class="formEntry">
+        <label for="date">Date: </label>
+        <input type="time"   id="date" class="entry"  name="appointmentTime" />
+        </div>
         
+        <div class="formEntry">
         <button type="submit" id="btnAppointmentSet" name="action" value="submitAppointment" >Set Appointment</button><br>
+        </div>
+
+        <div class="formEntry"></div>
         
         
     </form>
     
+    <br>
+    <br>
+
+    <h4 class="heading">Appointments Scheduled</h4>
+    <br>
     <?php
     
-        $rs = $_GET['returnStatement'];
-    
+        
         if(isset($_GET['returnStatement']))
         {
+            $rs = $_GET['returnStatement'];
+
             if($rs == "ERROR: Appointment collision!")
             {
                 ?>
@@ -279,43 +307,5 @@
         }
     }
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
