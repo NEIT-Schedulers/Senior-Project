@@ -75,7 +75,9 @@
             <!--content-->
             <div class="col-xs-10 col-sm-10 col-md-8 col-lg-6">
                 <br>
-                <h2 style="text-align:center;">Scheduler's Login</h2>
+                
+                <h2 style="text-align:center;font-family:'Harlow Solid', arial;font-size:48px;">Scheduly</h2>
+                <h3 class="loginH3" style="font-family: arial;font-size:24px;">Login</h3>
                 <br>
                 
                 <form action="../index.php" method="post">

@@ -10,9 +10,18 @@
     
     include_once('db.php');
     
+    if(isset($_POST['businessName']))
+    {
+        $searchParam = $_POST['businessName'];
+    }
+    elseif(isset($_GET['searchParameters']))
+    {
+        $searchParam = $_GET['searchParameters'];
+    }
+    
     $sql = "SELECT * FROM owners WHERE businessName LIKE :businessName";
     $sql = $db->prepare($sql);
-    $sql->bindParam(':businessName', $_POST['businessName']);
+    $sql->bindParam(':businessName', $searchParam);
     $sql->execute();
     $results = $sql->fetchAll(PDO::FETCH_ASSOC);
     

@@ -127,12 +127,13 @@
         
         
         //inserts new owner into db
-        public function createOwner($ownerFirstName, $ownerLastName, $ownerEmail, $ownerPhone, $openingHour, $closingHour, $password)
+        public function createOwner($businessName, $ownerFirstName, $ownerLastName, $ownerEmail, $ownerPhone, $openingHour, $closingHour, $password)
         {
             try
             {
-                $sql = "INSERT INTO owners VALUES (NULL, :ownerFirstName, :ownerLastName, :ownerEmail, :ownerPhone, :openingHour, :closingHour, :password)";
+                $sql = "INSERT INTO owners VALUES (NULL, :businessName, :ownerFirstName, :ownerLastName, :ownerEmail, :ownerPhone, :openingHour, :closingHour, :password)";
                 $sql = $this->conn->prepare($sql);
+                $sql->bindParam(':businessName', $businessName);
                 $sql->bindParam(':ownerFirstName', $ownerFirstName);
                 $sql->bindParam(':ownerLastName', $ownerLastName);
                 $sql->bindParam(':ownerEmail', $ownerEmail);

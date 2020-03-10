@@ -23,17 +23,19 @@
     <BODY>
 
         <?php
-        
-            //check if the user is trying to check a business's calendar
-            if(isset($_GET['businessID']))
-            {
-                include_once('indexCalendar.php');
-            }
-            //if they aren't, send them to the admin backend
-            else
-            {
-                include_once('indexAdmin.php');
-            }
+
+            ?><meta http-equiv="Refresh" content="0; url=SeniorProject4/index.php?action=ownerLanding" /><?php
+            
+            // //check if the user is trying to check a business's calendar
+            // if(isset($_GET['businessID']))
+            // {
+            //     include_once('indexCalendar.php');
+            // }
+            // //if they aren't, send them to the admin backend
+            // else
+            // {
+            //     include_once('indexAdmin.php');
+            // }
         
         ?>
         

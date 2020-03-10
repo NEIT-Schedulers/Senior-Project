@@ -3,6 +3,8 @@
 <?php
 
     $_SESSION['errorMSGRegister'] = "";
+    
+    $businessName  = $_POST['businessName'];
 
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -30,9 +32,9 @@
     
     
     // $ownerArray = $owner->createOwner( $ownerFirstName, $ownerLastName, $ownerEmail, $ownerPhone, $opening, $closing, $pwordHash);
-    $ownerArray = $owner->createOwner($ownerFirstName, $ownerLastName, $email, $ownerPhone, $opening, $closing, $pwordHash);
+    $ownerArray = $owner->createOwner($businessName, $ownerFirstName, $ownerLastName, $email, $ownerPhone, $opening, $closing, $pwordHash);
 
-    print_r($owner->read());
+    // print_r($owner->read());
 
     ?>
     <!--<meta http-equiv="Refresh" content="0; url=indexAdmin.php?action=login" />-->

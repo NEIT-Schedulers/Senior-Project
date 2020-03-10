@@ -19,8 +19,8 @@
 
 <div class="pageContainer">
     
-    <h1>Owner Landing Page</h1>
-    <p>Welcome, <?php echo $_SESSION['ownerArray'][0]['ownerFirstName'] . " " . $_SESSION['ownerArray'][0]['ownerLastName'] . "."; ?></p>
+    <h1>Welcome</h1>
+    <p>Hello, <?php echo $_SESSION['ownerArray'][0]['ownerFirstName'] . " " . $_SESSION['ownerArray'][0]['ownerLastName'] . "."; ?></p>
     
 </div>
 

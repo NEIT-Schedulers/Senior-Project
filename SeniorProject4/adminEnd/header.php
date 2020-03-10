@@ -1,10 +1,10 @@
 
         
 <!--Header thing-->
-<nav class="navbar navbar-expand-lg navbar-custom navbar-light">
+<nav class="navbar navbar-expand-lg navbar-custom navbar-light sticky-top">
     
     <!--Header Logo-->
-    <a class="navbar-brand" href="https://chrispeloso.com/SeniorProject4" style="font-family:sans-serif;color:black;padding:10px;font-weight:bold;">Schedulers</a>
+    <a class="navbar-brand" href="https://chrispeloso.com/SeniorProject4" style="font-family:'Harlow Solid', arial, sans-serif;color:black;padding:10px;font-weight:bold;">Scheduly</a>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,6 +31,14 @@
             
             <li class="nav-item">
                 <a class="nav-link" href="?action=calendar">Calendar</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="?action=support">Support</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="?action=restWiki">REST Info</a>
             </li>
             
 

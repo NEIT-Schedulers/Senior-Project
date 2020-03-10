@@ -366,6 +366,36 @@
             
 
         }
+        
+        
+        // Function for deleting rows by appointment ID
+        public function deleteByAptID($id)
+        {
+            $sql = "DELETE FROM appointments WHERE appointmentID = :aptID";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':aptID', $id);
+            $sql->execute();
+        }
+        
+        
+        // Function for deleting rows by service ID
+        public function deleteByServiceID($sID)
+        {
+            $sql = "DELETE FROM appointments WHERE serviceID = :serviceID";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':serviceID', $sID);
+            $sql->execute();
+            
+        }
+        
+        // Function for deleting rows by practitoner ID
+        public function deleteByPractitionerID($pracID)
+        {
+            $sql = "DELETE FROM appointments WHERE practitionerID = :pracID";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':pracID', $pracID);
+            $sql->execute();
+        }
 
         
         

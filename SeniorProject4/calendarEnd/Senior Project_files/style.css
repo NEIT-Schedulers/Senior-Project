@@ -1,19 +1,6 @@
 *{
     font-family:sans-serif;
 }
-.navbar
-{
-    background:#f8f8f8;
-    border-bottom:1px solid rgb(224, 224, 224);
-}
-
-body{
-    background:radial-gradient(#ffffff, #dfe5ed);
-    height:100%;
-    margin:0;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-}
 
 .pageContainer{
     /*border:1px solid black;*/

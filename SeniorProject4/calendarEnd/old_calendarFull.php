@@ -1,27 +1,6 @@
-
-    
-    <span class="calendarLogin">Looking for admin sign in? <a href="https://chrispeloso.com/SeniorProject4/" class="click"> Click here</a></span>
-
-
-    <!--Search bar-->
-    <div id="calendarBusinessSearchDiv">
-        
-        <form action="https://chrispeloso.com/SeniorProject4/index.php" method="GET" class="searchForm">
-            
-            <input type="input" class="calendarBusinessSearchInput" name="searchParameters" placeholder="Search for a business...">
-            
-            <button type="submit" id="btnSearchParameters" name="action" value="submitBusinessSearch">Search</button>
-            
-        </form>    
-        
-    </div>
-    
-    <br>
-
-<center>
 <div id="calendar">
     <center>
-        <h3 class="calendarYear"><?php echo $year; ?></h2>
+        <h2 class="calendarYear"><?php echo $year; ?></h2>
         <h1 class="calendarYear"><?php echo date('F', strtotime($year . '-' . $month . '-01')) ?></h1>
     </center>
 
@@ -63,7 +42,7 @@
 
     <table class="calendarTable">
 
-        <tbody><tr>
+        <tr>
 
             <th><div class="calendarTH">Sunday</div></th>
             <th><div class="calendarTH">Monday</div></th>
@@ -76,6 +55,7 @@
         </tr>
 
         <tr>
+
             <?php
 
                 if($dayOfWeekNum != 0)
@@ -98,9 +78,9 @@
                         }
 
                         ?>
+
                             <td onclick="location.href='?businessID=<?php echo $businessID; ?>&setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>&setDay=<?php echo $i; ?>'" style="cursor:pointer;">
-                                <div class="calendarTD"><?php echo $i; ?></div>
-                            </td>
+                                <div class="calendarTD"><?php echo $i; ?></div></td>
 
                         <?php
 
@@ -114,13 +94,16 @@
                 {
                     echo "<p style='color:red;'>There was an error.";
                 }
-            ?>
-        </tr>
-    </tbody>
-</table>
 
+            ?>
+
+        </tr>
+
+
+
+
+
+
+    </table>
 <!-- Ends calendar div -->
 </div>
-</center>
-        
-    

@@ -261,3 +261,13 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home1/chrispf0/public_html/SeniorProject/restTest.php on line 25
+[08-Mar-2020 20:55:12 America/New_York] PHP Warning:  include_once(adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/calendarPerDay.php on line 14
+[08-Mar-2020 20:55:12 America/New_York] PHP Warning:  include_once(): Failed opening 'adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/calendarPerDay.php on line 14
+[08-Mar-2020 20:55:12 America/New_York] PHP Warning:  include_once(adminEnd/Classes/Services.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/calendarPerDay.php on line 15
+[08-Mar-2020 20:55:12 America/New_York] PHP Warning:  include_once(): Failed opening 'adminEnd/Classes/Services.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/calendarPerDay.php on line 15
+[08-Mar-2020 20:55:12 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Services' not found in /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/calendarPerDay.php:16
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/calendar.php(87): include_once()
+#1 /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProjectNateChanges/SeniorProject4/calendarEnd/calendarPerDay.php on line 16

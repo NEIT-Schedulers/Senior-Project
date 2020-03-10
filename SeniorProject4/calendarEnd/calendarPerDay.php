@@ -1,9 +1,11 @@
 <!--the back button-->
 <br><br>
-<a href="?businessID=<?php echo $businessID; ?>&setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>" style="border:1px solid turquoise;background-color:turquoise;padding:5px;text-decoration:none;color:white;">Return to Calendar</a>
+<a href="?businessID=<?php echo $businessID; ?>&setMonth=<?php echo $month; ?>&setYear=<?php echo $year; ?>" class="button">Return to Calendar</a>
 <br><br>
 
 <?php 
+
+    // echo print_r($_SESSION['ownerArray'][0]['ownerID']);
 
     $dayOfCurrentMonth = date("l", strtotime($year . "-" . $month . "-" . $day));
 
@@ -40,51 +42,78 @@
 <br>
 
 <div id="appointmentSchedulerDiv">
+    <h4 class="heading">Add Appointment</h4>
     
     <form action="index.php" method="POST" class="appointmentSchedulerForm">
     
         <!--Lists all the different service types-->
         <!--<select id="servicesListing" onchange="serviceChange(this.value)" name="serviceID">-->
-        <select id="servicesListing" name="serviceID">
-          <?php
-          
-            foreach($results as $re)
-            {
-                ?>
-                
-                    <option value="<?php echo $re['serviceID']; ?>"><?php echo $re['serviceName']; ?></option>
-                
-                <?php
-            }
-          
-          ?>
-          
-          
-          
-        </select>
+        <div class="formEntry">
+            <label for="servicesListing">Service:&nbsp;&nbsp;</label>
+            <select id="servicesListing" name="serviceID">
+              <?php
+              
+                foreach($results as $re)
+                {
+                    ?>
+                    
+                        <option value="<?php echo $re['serviceID']; ?>"><?php echo $re['serviceName'] . " - " . $re['lengthOfTime'] . " minutes"; ?></option>
+                    
+                    <?php
+                }
+              
+              ?>
+              
+              
+              
+            </select>
+        </div>
     
         <!--Practitioner selecter-->
-        <select id="practitionersListing" onchange="practitionerChange(this.value)" name="practitionerID">
-            
-            <?php
-          
-            foreach($resultsPractitioners as $re)
-            {
-                ?>
-                
-                    <option value="<?php echo $re['practitionerID']; ?>"><?php echo $re['practitionerFirstName'] . " " . $re['practitionerLastName']; ?></option>
+        <div class="formEntry">
+            <label for="practitionersListing">Employee:&nbsp;&nbsp;</label>
+            <select id="practitionersListing" onchange="practitionerChange(this.value)" name="practitionerID">
                 
                 <?php
-            }
-          
-          ?>
-            
-        </select>
+              
+                foreach($resultsPractitioners as $re)
+                {
+                    ?>
+                    
+                        <option value="<?php echo $re['practitionerID']; ?>"><?php echo $re['practitionerFirstName'] . " " . $re['practitionerLastName']; ?></option>
+                    
+                    <?php
+                }
+              
+              ?>
+                
+            </select>
+        </div>
     
-        <input type="text"      name="clientFirstName"   placeholder="First Name"                                                        tabIndex=1 />
-        <input type="text"      name="clientLastName"    placeholder="Last Name"                                                         tabIndex=2 />
-        <input type="text"      name="clientEmail"       placeholder="Email"         pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}"         tabIndex=3 />
-        <input type="text"      name="clientPhone"       placeholder="Phone"                                                             tabIndex=4 />
+        <!--Client first name-->
+        <div class="formEntry">
+            <label for="clientFirstName">Your First Name: </label>
+            <input type="text"   id="clientFirstName"   name="clientFirstName"   placeholder="First Name"                                                        tabIndex=1 />
+        </div>
+        
+        <!--Client last name-->
+        <div class="formEntry">
+            <label for="clientLastName">Your Last Name: </label>
+            <input type="text"   id="clientLastName"   name="clientLastName"    placeholder="Last Name"                                                         tabIndex=2 />
+        </div>
+        
+        <!--Client email-->
+        <div class="formEntry">
+            <label for="clientEmail">Your Email: </label>
+            <input type="text"   id="clientEmail"   name="clientEmail"       placeholder="Email"         pattern="[A-z,0-9]{2,}@[A-z]{2,}.[A-z]{2,}"         tabIndex=3 />
+        </div>
+        
+        <!--Client phone-->
+        <div class="formEntry">
+            <label for="clientPhone">Your Phone: </label>        
+            <input type="text"   id="clientPhone"   name="clientPhone"       placeholder="Phone"                                                             tabIndex=4 />
+        </div>
+        
         
         <!--Sends the date-->
         <input type='hidden'    name="appointmentDate"                  value="<?php echo $dateThing; ?>"/> 
@@ -92,12 +121,21 @@
         <!--Sends the business ID-->
         <input type='hidden'    name="businessID"                       value="<?php echo $_GET['businessID']; ?>"/> 
         
-        <input type="time"      name="appointmentTime" />
+        <!--Sends appointment time-->
+        <div class="formEntry">
+            <label for="appointmentTime">Time: </label>        
+            <input type="time"   id="appointmentTime"   name="appointmentTime" />
+        </div>
         
-        <button type="submit" id="btnAppointmentSet" name="action" value="submitAppointment" >Set Appointment</button><br>
+        
+        <!--Submission button-->
+        <div class="formEntry">
+            <button type="submit" id="btnAppointmentSet" name="action" value="submitAppointment" style="margin:0 auto;">Set Appointment</button><br>
+        </div>
         
         
     </form>
+    <br />
     
     <?php
     
@@ -127,7 +165,7 @@
     
 </div>
 
-
+<!--<h4 class="heading">Appointments Scheduled</h4>-->
 
 
 
@@ -224,13 +262,40 @@
             // console.log(newAppointment[e]['practitionerID']);
             if(val === newAppointment[e]['practitionerID'])
             {
-                document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['clientFirstName'] + " " + newAppointment[e]['clientLastName'] + "</b>";
-                document.getElementById("appointmentSchedulerP").innerHTML += " has a <b>" + newAppointment[e]['serviceName'] + "</b> appointment ";
-                document.getElementById("appointmentSchedulerP").innerHTML += " at <b>" + changeTimeFormat(newAppointment[e]['time']) + "</b> on <b>" + changeDateFormat(newAppointment[e]['date']) + "</b>";
-                document.getElementById("appointmentSchedulerP").innerHTML += " with employee <b>" + newAppointment[e]['practitionerFirstName'] + " " + newAppointment[e]['practitionerLastName'] + "</b>";
+                var firstInitial = newAppointment[e]['clientLastName'].charAt(0);
+            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['clientFirstName'] + " " + firstInitial + ".</b> has a "; //Displays client name
+            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['serviceName'] + "</b> scheduled ";
+            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + changeTimeFormat(newAppointment[e]['time']) + "</b> on <b>" + changeDateFormat(newAppointment[e]['date']) + "</b>";
+            document.getElementById("appointmentSchedulerP").innerHTML += " with employee <b>" + newAppointment[e]['practitionerFirstName'] + " " + newAppointment[e]['practitionerLastName'] + "</b> ";
+            <?php
+            
+                if(isset($_SESSION['ownerArray'][0]['ownerID']) && $_SESSION['ownerArray'][0]['ownerID'] == $_GET['businessID'])
+                {
+                    ?>
+                        var linkStr = "https://chrispeloso.com/SeniorProject4/?action=deleteApt&aptID=" + newAppointment[e]['appointmentID'];
+                        
+                        
+                        var deleteBtn = document.createElement('a');
+                        var link = document.createTextNode("DELETE");
+
+                        deleteBtn.appendChild(link);
+                        deleteBtn.title = "DELETE";
+                        // console.log(linkStr);
+                        deleteBtn.href = linkStr;
+                        deleteBtn.style.color = "red";
+                        
+                        
+                        
                     
+                        document.getElementById("appointmentSchedulerP").appendChild(deleteBtn);
                     
-                document.getElementById("appointmentSchedulerP").innerHTML += "<br>";
+                    <?php
+                }
+            
+            ?>
+            
+                
+            document.getElementById("appointmentSchedulerP").innerHTML += "<hr>";
                 
             }
         }
@@ -246,8 +311,8 @@
     // Pulls client names from database.
     for(var i = 0; i < newAppointment.length; i++)
     {
-        console.log(newAppointment);
-        console.log(newAppointment[i]['clientFirstName'] + " " + newAppointment[i]['clientLastName'] + ", ID#: " + newAppointment[i]['practitionerID']);
+        // console.log(newAppointment);
+        // console.log(newAppointment[i]['clientFirstName'] + " " + newAppointment[i]['clientLastName'] + ", ID#: " + newAppointment[i]['practitionerID']);
     }
     
     
@@ -262,20 +327,54 @@
     var yourSelect = document.getElementById("practitionersListing");
     var val = yourSelect.value;
 
-    console.log("value: " + val);
+    // console.log("value: " + val);
     document.getElementById("appointmentSchedulerP").innerHTML = "";
     
     for(var e = 0; e < newAppointment.length;e++)
     {
         if(val === newAppointment[e]['practitionerID'])
         {
-            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['clientFirstName'] + " " + newAppointment[e]['clientLastName'] + "</b>";
-            document.getElementById("appointmentSchedulerP").innerHTML += " has a <b>" + newAppointment[e]['serviceName'] + "</b> appointment ";
-            document.getElementById("appointmentSchedulerP").innerHTML += " at <b>" + changeTimeFormat(newAppointment[e]['time']) + "</b> on <b>" + changeDateFormat(newAppointment[e]['date']) + "</b>";
-            document.getElementById("appointmentSchedulerP").innerHTML += " with employee <b>" + newAppointment[e]['practitionerFirstName'] + " " + newAppointment[e]['practitionerLastName'] + "</b>";
+            // document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['clientFirstName'] + " " + newAppointment[e]['clientLastName'] + "</b>"; //Displays client name
+            // document.getElementById("appointmentSchedulerP").innerHTML += " has a <b>" + newAppointment[e]['serviceName'] + "</b> appointment ";
+            
+            // var endTime = newAppointment[e]['time'] + newAppointment[e]['duration'];
+            // var endTime = new Date(newAppointment[e]['time'].getTime() + newAppointment[e]['duration']*60000);
+
+            
+            var firstInitial = newAppointment[e]['clientLastName'].charAt(0);
+            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['clientFirstName'] + " " + firstInitial + ".</b> has a "; //Displays client name
+            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + newAppointment[e]['serviceName'] + "</b> scheduled ";
+            document.getElementById("appointmentSchedulerP").innerHTML += "<b>" + changeTimeFormat(newAppointment[e]['time']) + "</b> on <b>" + changeDateFormat(newAppointment[e]['date']) + "</b>";
+            document.getElementById("appointmentSchedulerP").innerHTML += " with employee <b>" + newAppointment[e]['practitionerFirstName'] + " " + newAppointment[e]['practitionerLastName'] + "</b> ";
+            <?php
+            
+                if(isset($_SESSION['ownerArray'][0]['ownerID']) && $_SESSION['ownerArray'][0]['ownerID'] == $_GET['businessID'])
+                {
+                    ?>
+                        var linkStr = "https://chrispeloso.com/SeniorProject4/?action=deleteApt&aptID=" + newAppointment[e]['appointmentID'];
+                        
+                        
+                        var deleteBtn = document.createElement('a');
+                        var link = document.createTextNode("DELETE");
+
+                        deleteBtn.appendChild(link);
+                        deleteBtn.title = "DELETE";
+                        // console.log(linkStr);
+                        deleteBtn.href = linkStr;
+                        deleteBtn.style.color = "red";
+                        
+                        
+                        
+                    
+                        document.getElementById("appointmentSchedulerP").appendChild(deleteBtn);
+                    
+                    <?php
+                }
+            
+            ?>
+            
                 
-                
-            document.getElementById("appointmentSchedulerP").innerHTML += "<br>";
+            document.getElementById("appointmentSchedulerP").innerHTML += "<hr>";
         }
     }
 </script>

@@ -27,7 +27,7 @@
             //check if the user is trying to check a business's calendar
             if(isset($_GET['businessID']))
             {
-                include_once('indexCalendar.php');
+                include_once('calendarEnd/index.php');
             }
             //if they aren't, send them to the admin backend
             else

@@ -48,6 +48,15 @@
         }
         
         
+        public function deleteByID($pracID)
+        {
+            $sql = "DELETE FROM practitioners WHERE practitionerID = :pracID";
+            $sql = $this->conn->prepare($sql);
+            $sql->bindParam(':pracID', $pracID);
+            $sql->execute();
+        }
+        
+        
         
         
         

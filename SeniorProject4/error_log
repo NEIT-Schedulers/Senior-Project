@@ -621,3 +621,230 @@ Stack trace:
 [28-Feb-2020 22:50:06 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 284
 [28-Feb-2020 22:50:30 America/Boise] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 284
 [28-Feb-2020 22:53:16 America/Boise] PHP Fatal error:  Cannot use [] for reading in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Appointments.php on line 295
+[09-Mar-2020 15:10:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:8
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 8
+[09-Mar-2020 15:10:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:8
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 8
+[09-Mar-2020 15:10:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:8
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 8
+[09-Mar-2020 15:10:56 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:7
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 7
+[09-Mar-2020 15:11:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:7
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 7
+[09-Mar-2020 15:11:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:7
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 7
+[09-Mar-2020 15:11:10 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:7
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 7
+[09-Mar-2020 15:11:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:7
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 7
+[09-Mar-2020 15:11:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:8
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 8
+[09-Mar-2020 15:11:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method Appointments::deleteAptById() in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php:8
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(46): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/deleteApt.php on line 8
+[09-Mar-2020 15:12:51 America/Boise] PHP Warning:  include_once(submitBusinessSearch): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 83
+[09-Mar-2020 15:12:51 America/Boise] PHP Warning:  include_once(): Failed opening 'submitBusinessSearch' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 83
+[09-Mar-2020 16:12:00 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Owners::createOwner(), 7 passed in /home1/chrispf0/public_html/SeniorProject4/adminEnd/register.php on line 35 and exactly 8 expected in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Owners.php:130
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/adminEnd/register.php(35): Owners->createOwner('Chris', 'Peloso', 'cpeloso10@hotma...', '4018717240', '09:00:00', '17:00:00', 'a94a8fe5ccb19ba...')
+#1 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(75): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/Classes/Owners.php on line 130
+[09-Mar-2020 18:48:31 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:48:31 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:48:31 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:48:31 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:48:31 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Owners' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:25
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 25
+[09-Mar-2020 18:48:33 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:48:33 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:48:33 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:48:33 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:48:33 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Owners' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:25
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 25
+[09-Mar-2020 18:49:05 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:49:05 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:49:05 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:49:05 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:49:05 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Owners' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:25
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 25
+[09-Mar-2020 18:49:44 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:49:44 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:49:44 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:49:44 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:49:44 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Owners' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:25
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 25
+[09-Mar-2020 18:49:52 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:49:52 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:49:52 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:49:52 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:50:07 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:50:07 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:50:07 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:50:07 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:50:07 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Owners' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:25
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 25
+[09-Mar-2020 18:51:15 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:51:15 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:51:15 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:51:15 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:51:15 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Owners' not found in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:25
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 25
+[09-Mar-2020 18:51:50 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:51:50 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:51:50 America/New_York] PHP Warning:  include_once(../adminEnd/Classes/Owners.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:51:50 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/Classes/Owners.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 24
+[09-Mar-2020 18:51:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:27
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 27
+[09-Mar-2020 18:52:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:27
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 27
+[09-Mar-2020 18:52:21 America/New_York] PHP Warning:  include_once(../adminEnd/db.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:52:21 America/New_York] PHP Warning:  include_once(): Failed opening '../adminEnd/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 23
+[09-Mar-2020 18:52:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:27
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 27
+[09-Mar-2020 18:52:27 America/New_York] PHP Fatal error:  Uncaught Error: Undefined class constant 'FETCH' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:30
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 30
+[09-Mar-2020 18:52:53 America/New_York] PHP Fatal error:  Uncaught Error: Undefined class constant 'FETCH' in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:31
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 31
+[09-Mar-2020 18:54:12 America/New_York] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php:25
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendar.php(81): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/calendarEnd/index.php(18): include_once('/home1/chrispf0...')
+#2 /home1/chrispf0/public_html/SeniorProject4/index.php(30): include_once('/home1/chrispf0...')
+#3 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/calendarEnd/calendarFull.php on line 25
+[09-Mar-2020 17:18:48 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:18:48 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:06 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:06 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:12 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:12 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:20 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:20 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:36 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:36 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:58 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:19:58 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:20:06 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:20:06 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:21:07 America/Boise] PHP Warning:  include_once(restWiki.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:21:07 America/Boise] PHP Warning:  include_once(): Failed opening 'restWiki.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php on line 79
+[09-Mar-2020 17:21:19 America/Boise] PHP Warning:  include_once(Mobile-Detect-2.8.33/Mobile_Detect.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 3
+[09-Mar-2020 17:21:19 America/Boise] PHP Warning:  include_once(): Failed opening 'Mobile-Detect-2.8.33/Mobile_Detect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 3
+[09-Mar-2020 17:21:19 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Mobile_Detect' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php:4
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(79): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 4
+[09-Mar-2020 17:21:59 America/Boise] PHP Warning:  include_once(Mobile-Detect-2.8.33/Mobile_Detect.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 3
+[09-Mar-2020 17:21:59 America/Boise] PHP Warning:  include_once(): Failed opening 'Mobile-Detect-2.8.33/Mobile_Detect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 3
+[09-Mar-2020 17:21:59 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Mobile_Detect' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php:4
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(79): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 4
+[09-Mar-2020 17:22:25 America/Boise] PHP Warning:  include_once(Mobile-Detect-2.8.33/Mobile_Detect.php): failed to open stream: No such file or directory in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 3
+[09-Mar-2020 17:22:25 America/Boise] PHP Warning:  include_once(): Failed opening 'Mobile-Detect-2.8.33/Mobile_Detect.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 3
+[09-Mar-2020 17:22:25 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Mobile_Detect' not found in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php:4
+Stack trace:
+#0 /home1/chrispf0/public_html/SeniorProject4/indexAdmin.php(79): include_once()
+#1 /home1/chrispf0/public_html/SeniorProject4/index.php(35): include_once('/home1/chrispf0...')
+#2 {main}
+  thrown in /home1/chrispf0/public_html/SeniorProject4/adminEnd/restWiki.php on line 4

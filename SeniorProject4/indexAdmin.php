@@ -41,6 +41,18 @@
                 <meta http-equiv="Refresh" content="0; url=?businessID=<?php echo $_SESSION['ownerID']; ?>" />
                 <?php
                 break;
+            
+            case "deleteApt":
+                include_once('adminEnd/deleteApt.php');
+                break;
+                
+            case "deletePractitioner":
+                include_once('adminEnd/deletePractitioner.php');
+                break;
+                
+            case "deleteService":
+                include_once('adminEnd/deleteService.php');
+                break;
                 
             case "login":
                 include_once('adminEnd/login.php');
@@ -63,8 +75,20 @@
                 include_once('adminEnd/register.php');
                 break;
                 
+            case "restWiki":
+                include_once('adminEnd/restWiki.php');
+                break;
+                
             case "submitAppointment":
                 include_once('adminEnd/submitAppointment.php');
+                break;
+                
+            case "submitBusinessSearch":
+                include_once('adminEnd/submitBusinessSearch.php');
+                break;
+                
+            case "support":
+                include_once('adminEnd/support.php');
                 break;
             
             case "updateBusinessHours":
